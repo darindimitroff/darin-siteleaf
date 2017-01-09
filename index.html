@@ -2,12 +2,63 @@
 layout: default
 title: Your New Jekyll Site
 ---
+{% include header.html %}
+<div class="mw7 overflow-hidden fff mb3">
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+	<div class="mw6 mb3 pt5 overflow-hidden">
+		<h1 class="f1 lh-title mb4 b">Hey, I'm Darin</h1>
+
+		<p class="mb0">An inter-disciplinary digital designer living in Sofia.  Currently working at <a href="http://www.spacefarm.digital" class="spacefarm" target="blank">spacefarm</a>, a product design shop I co-founded with my partner <a href="http://kalinaivanova.com">Kalina</a>.
+		</p>
+	</div>
+<div class="row">
+<div class="col-12 col-lg-6">
+	<h2 class="f4 b">I'm currently working on</h2>
+
+	<ul>
+		<li><a href="http://www.spacefarm.digital" class="spacefarm" target="blank">spacefarm!</a></li>
+		<li>a digital health and fitness platform</li>
+		<li>an online publication covering yoga</li>
+		<li>the next version of an industrial-scale language testing tool</li>
+		<li>NDA</li>
+	</ul>
 </div>
+
+<div class="col-12 col-lg-6">
+	<h2 class="f4 b">I'm really passionate about</h2>
+	<ul>
+		<li>large scale design systems</li>
+		<li>content-driven design</li>
+		<li>responsive typography for screens</li>
+		<li>designing with code</li>
+		<li>microinteraction prototyping</li>
+		<li>atomic CSS</li>
+	</ul>
+</div>
+
+<div class="col-12 col-lg-6">
+	<h2 class="f4 b">I'm also having fun</h2>
+
+	<ul>
+		<li>exploring product improvement ideas on <a href="http://www.improved.design" target="blank">improved.design</a></li>
+		<li>designing a better battery charger LED notification standard</li>
+		<li>building the <strong>ultimate</strong> responsive typographic scale</li>
+	</ul>
+</div>
+
+<div class="col-12 col-lg-6">
+	<h2 class="f4 b">I'm currently trying to</h2>
+
+	<ul>
+		<li>learn the basics of Swift</li>
+		<li>get into React</li>
+		<li>improve my Terminal skills</li>
+		<li>get back to doing some illustration</li>
+		<li>learn VIM (?)</li>
+	</ul>
+	</div>
+</div>
+
+</div>
+
+{% include footer.html %}

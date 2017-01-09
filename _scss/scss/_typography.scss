@@ -1,0 +1,50 @@
+html
+{
+    font-size: 20px;
+
+    @include md
+    {
+        font-size: 22px;
+    }
+    @include xl
+    {
+        font-size: 24px;
+    }
+}
+
+body
+{
+    -webkit-font-smoothing: antialiased;
+    font-size: 1rem;
+    font-family: 'Nitti Grotesk';
+    line-height: 1.45;
+
+    color: $black;
+    background-color: $white;
+
+    transition: $animation-transition;
+
+}
+
+p, ul,  {
+	margin-bottom: 1.45rem;
+}
+
+.b {
+  font-weight: bold;
+}
+
+blockquote {
+  @extend .bg-fff;
+  @extend .pa3;
+  @extend .mb3;
+  @extend .br1;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+ul, ol {
+ list-style-position:inside;
+ padding-left: .1em;
+}

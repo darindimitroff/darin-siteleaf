@@ -1,0 +1,35 @@
+.list {         list-style-type: none; }
+
+/* Lists */
+ul, ol, li {
+  position: relative;
+}
+
+ul ul, ol ol {
+  padding-left: $spacing-small;
+}
+
+ul {
+  margin-left: 1.33rem;
+  list-style: none;
+  >li:before {
+    content: '✱';
+    left: -1.33rem;
+    position: absolute;
+    color: $smoke;
+  }
+}
+
+ol {
+  list-style: none;
+  margin-left: $spacing-medium;
+  counter-reset: i 0;
+  >li:before {
+    left: -$spacing-medium;
+    position: absolute;
+    height: 100%;
+    content: counter(i);
+    counter-increment: i;
+    color: $black;
+  }
+}

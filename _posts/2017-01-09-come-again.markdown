@@ -1,6 +1,6 @@
 ---
 title: Welcome to Jekyll!
-date: 2017-01-09 11:11:03 +02:00
+date: 2017-01-09 11:11:00 +02:00
 categories:
 - jekyll
 - update

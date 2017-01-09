@@ -1,8 +1,10 @@
 ---
+title: Welcome to Jekyll!
+date: 2017-01-09 11:11:03 +02:00
+categories:
+- jekyll
+- update
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-01-09 09:11:03
-categories: jekyll update
 ---
 
 Does this really work?

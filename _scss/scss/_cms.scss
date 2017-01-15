@@ -1,0 +1,80 @@
+.cms {
+  h2, h3, h4, h5, h6 {
+    @extend .b;
+    @extend .lh-title;
+    @extend .mb2;
+  }
+  h2 { font-size: 1.953rem; }
+  h3 { font-size: 1.563rem; }
+  h4 { font-size: 1.25rem; }
+  h5 { font-size: 1rem; }
+  h6 { font-size: .8rem; }
+
+  & a {
+    @extend .b;
+    transition: var(--hover-transition);
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  img {
+    border-radius: .2rem;
+  }
+
+  /* Lists */
+  ul, ol, li {
+    position: relative;
+  }
+
+  pre {
+    font-family: Input Mono, Menlo, Fira Mono, Roboto Mono, monospace;
+    @extend .f6;
+  }
+
+  ul, ol {
+    margin-bottom: $spacing-medium;
+  }
+
+  ul ul, ol ol {
+    padding-left: $spacing-small;
+  }
+
+  ul {
+    margin-left: 1rem;
+    >li:before {
+      content: '●';
+      left: -1rem;
+      position: absolute;
+      color: $smoke;
+      top: 3.5%;
+    }
+  }
+
+  & ol {
+    list-style: none;
+    margin-left: $spacing-medium;
+    counter-reset: i 0;
+    & >li:before {
+      font-weight: 800;
+      left: -$spacing-medium;
+      position: absolute;
+      height: 100%;
+      content: counter(i);
+      counter-increment: i;
+      color: $smoke;
+    }
+  }
+
+  blockquote {
+    @extend .f4;
+    @extend .b;
+    @extend .pa3;
+    @extend .br1;
+    @extend .mb3;
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+}

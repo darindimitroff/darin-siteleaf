@@ -1,35 +1,46 @@
 .list {         list-style-type: none; }
 
 /* Lists */
-ul, ol, li {
+.ul, ol, li {
   position: relative;
 }
 
-ul ul, ol ol {
+pre {
+  font-family: Input Mono, Menlo, Fira Mono, Roboto Mono, monospace;
+  @extend .f6;
+}
+
+.ul, ol {
+  margin-bottom: $spacing-medium;
+}
+
+.ul .ul, ol ol {
   padding-left: $spacing-small;
 }
 
-ul {
-  margin-left: 1.33rem;
+.ul {
   list-style: none;
+  margin-left: 1rem;
   >li:before {
-    content: '✱';
-    left: -1.33rem;
+    content: '●';
+    left: -1rem;
     position: absolute;
     color: $smoke;
+    top: 3.5%;
   }
 }
 
-ol {
+& ol {
   list-style: none;
   margin-left: $spacing-medium;
   counter-reset: i 0;
-  >li:before {
+  & >li:before {
+    font-weight: 800;
     left: -$spacing-medium;
     position: absolute;
     height: 100%;
     content: counter(i);
     counter-increment: i;
-    color: $black;
+    color: $smoke;
   }
 }

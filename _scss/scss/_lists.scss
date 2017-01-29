@@ -1,7 +1,7 @@
 .list {         list-style-type: none; }
 
 /* Lists */
-.ul, ol, li {
+.ul, .ol, li {
   position: relative;
 }
 
@@ -10,11 +10,11 @@ pre {
   @extend .f6;
 }
 
-.ul, ol {
+.ul, .ol {
   margin-bottom: $spacing-medium;
 }
 
-.ul .ul, ol ol {
+.ul .ul, .ol .ol {
   padding-left: $spacing-small;
 }
 
@@ -30,7 +30,7 @@ pre {
   }
 }
 
-& ol {
+& .ol {
   list-style: none;
   margin-left: $spacing-medium;
   counter-reset: i 0;

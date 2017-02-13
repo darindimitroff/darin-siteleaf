@@ -1,16 +1,14 @@
 a {
-	color: inherit;
-}
-
-a {
+  color: inherit;
   @extend .b;
   @extend .states;
-	@extend .no-underline;
+  @extend .no-underline;
+  @extend .transition-fast;
 }
 
 .spacefarm:hover {
   color: #5538fa !important;
-	opacity: 1;
+  opacity: 1;
 }
 
 .twitter:hover {
@@ -20,15 +18,15 @@ a {
 
 .medium:hover {
   color: #5cffa0 !important;
-	opacity: 1;
+  opacity: 1;
 }
 
 .dribbble:hover {
   color: #ea4c89 !important;
-	opacity: 1;
+  opacity: 1;
 }
 
 .instagram:hover {
-  color: #405de6;
-	opacity: 1;
+  color: #405de6 !important;
+  opacity: 1;
 }

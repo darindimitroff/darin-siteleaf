@@ -1,15 +1,15 @@
-<footer class="ph3">
-    <div class="tc flex-md justify-between mw6 mw7-md pt2 bt b-grey-25 center">
-        <ul class="flex justify-between flex-wrap list-reset b li mb0 mhn2">
-            <li><a href="http://www.twitter.com/deezel" class="twitter no-underline pa2 db" target="blank">Twitter</a></li>
-            <li><a href="https://dribbble.com/deezel" class="dribbble no-underline pa2 db" target="blank">Dribbble</a></li>
-            <li><a class="medium no-underline pa2 db" href="https://medium.com/@deezel" target="blank">Medium</a></li>
-            <li><a class="instagram no-underline pa2 db" href="https://www.instagram.com/ddimitrovd/" target="blank">Instagram</a></li>
+</div>
+<footer>
+    <div class="tc flex-md justify-between mw6 mw7-sm pv3 bt b-grey-25 center">
+        <ul class="flex justify-between justify-start-md flex-wrap list-reset b li mb0 mhn2">
+            {% for socialMedia in site.data.social %}
+                <li><a href="{{socialMedia.link}}" class="{{socialMedia.name | downcase}} no-underline pa2 db" target="blank">{{socialMedia.name}}</a></li>
+            {% endfor %}
         </ul>
 
         <div>
-            <p class="lh-copy pv2 mb3">
-                <a href="#" class="js-night no-underline" title="Toggle night mode" style="vertical-align: -.16em">😎</a> 2016 Darin Dimitroff
+            <p class="lh-copy pv2 mb0">
+                <a href="#" class="js-night no-underline" title="Toggle night mode" style="vertical-align: -.16em">😎</a> {{ site.time | date: '%Y' }} Darin Dimitroff
             </p>
         </div>
     </div>
@@ -33,6 +33,7 @@
     // Toggle night mode on click
     nightButton.addEventListener("click", toggleNightMode);
 </script>
-
+</div>
+</div>
 </body>
 </html>

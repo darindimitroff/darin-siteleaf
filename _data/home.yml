@@ -1,0 +1,26 @@
+- name: Currently working on
+  items:
+    - <a href="http://www.spacefarm.digital" rel="noopener noreferrer" class="spacefarm">spacefarm!</a>
+    - an open source declarative design tool
+    - an online publication covering yoga
+    - a design system for a remote testing and certification platform
+    - NDA
+    - product improvement ideas on <a href="http://www.improved.design" rel="noopener noreferrer">improved.design</a>
+
+- name: Passionate about
+  items:
+    - large scale design systems
+    - content-driven design
+    - responsive typography for screens
+    - designing with code
+    - microinteraction prototyping
+    - atomic design concepts
+
+- name: Trying to
+  items:
+    - transfer my React skills into production
+    - get better at ES6
+    - get more into advanced maths
+    - improve my Terminal skills
+    - get back to doing some illustration
+    - learn VIM (?)

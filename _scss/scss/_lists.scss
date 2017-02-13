@@ -1,4 +1,4 @@
-.list {         list-style-type: none; }
+.list { list-style-type: none; }
 
 /* Lists */
 .ul, .ol, li {
@@ -10,12 +10,12 @@ pre {
   @extend .f6;
 }
 
-.ul, .ol {
-  margin-bottom: $spacing-medium;
-}
-
 .ul .ul, .ol .ol {
   padding-left: $spacing-small;
+}
+
+.ul, .ol {
+ list-style-position: inside;
 }
 
 .ul {

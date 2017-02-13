@@ -26,8 +26,8 @@ body
 
 }
 
-p, ul,  {
-	margin-bottom: 1.45rem;
+p  {
+    @extend .mb3;
 }
 
 .b {
@@ -42,9 +42,4 @@ blockquote {
   p {
     margin-bottom: 0;
   }
-}
-
-ul, ol {
- list-style-position:inside;
- padding-left: .1em;
 }

@@ -41,7 +41,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
 
   <link rel="apple-touch-icon" href="/images/thumb.png">
-</head>
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
 
 <body lang="en">
   <div class="site">
@@ -115,34 +115,42 @@
 
   </div>
 </div>
-  </div>
-</div>
-  <footer class="ph3">
+<footer class="ph3">
     <div class="tc flex-md justify-between mw6 mw7-md pt2 bt b-grey-25 center">
-      <ul class="flex justify-between flex-wrap list-reset b li mb0 mhn2">
-        <li><a href="http://www.twitter.com/deezel" class="twitter no-underline pa2 db" target="blank">Twitter</a></li>
-        <li><a href="https://dribbble.com/deezel" class="dribbble no-underline pa2 db" target="blank">Dribbble</a></li>
-        <li><a class="medium no-underline pa2 db" href="https://medium.com/@deezel" target="blank">Medium</a></li>
-        <li><a class="instagram no-underline pa2 db" href="https://www.instagram.com/ddimitrovd/" target="blank">Instagram</a></li>
-      </ul>
-      <div>
-        <p class="lh-copy pv2 mb3">
-          <a href="#" class="js-night no-underline" title="Toggle night mode" style="vertical-align: -.16em">😎</a> 2016 Darin Dimitroff
-        </p>
-      </div>
+        <ul class="flex justify-between flex-wrap list-reset b li mb0 mhn2">
+            <li><a href="http://www.twitter.com/deezel" class="twitter no-underline pa2 db" target="blank">Twitter</a></li>
+            <li><a href="https://dribbble.com/deezel" class="dribbble no-underline pa2 db" target="blank">Dribbble</a></li>
+            <li><a class="medium no-underline pa2 db" href="https://medium.com/@deezel" target="blank">Medium</a></li>
+            <li><a class="instagram no-underline pa2 db" href="https://www.instagram.com/ddimitrovd/" target="blank">Instagram</a></li>
+        </ul>
+
+        <div>
+            <p class="lh-copy pv2 mb3">
+                <a href="#" class="js-night no-underline" title="Toggle night mode" style="vertical-align: -.16em">😎</a> 2016 Darin Dimitroff
+            </p>
+        </div>
     </div>
-  </footer>
-</div>
-<script src="/js/zepto.js"></script>
+</footer>
+
 <script>
-  $( document ).ready(function() {
-    $('.js-night').on('click', function(){
-      event.preventDefault();
-      $('html').toggleClass('night');
-      $(this).html($(this).html() == '😳' ? '😎' : '😳');
-    });
-  });
+    // Vars
+    var nightButton = document.querySelector('.js-night'),
+        html = document.querySelector('html'),
+        nightButton = document.querySelector('.js-night');
+
+    // Define night mode
+    function toggleNightMode() {
+        event.preventDefault();
+        // Add .night class
+        html.classList.toggle('night');
+        // Switch Emoji
+        nightButton.innerHTML = (this.innerHTML === '😎' ? '😳' : '😎');
+    }
+
+    // Toggle night mode on click
+    nightButton.addEventListener("click", toggleNightMode);
 </script>
+
 </body>
 </html>
 

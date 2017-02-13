@@ -4,74 +4,9 @@ layout: default
 ---
 
 {% include header.html %}
-<div class="mw7 overflow-hidden fff mb3">
 
-	<div class="mw6 mb3 pt5 overflow-hidden">
-		<h1 class="f1 lh-title mb4 b">Hey, I'm Darin</h1>
+{% include intro.html %}
 
-		<p class="mb0">An inter-disciplinary digital designer living in Sofia.  Currently working at <a href="http://www.spacefarm.digital" class="spacefarm" target="blank">spacefarm</a>, a product design shop I co-founded with my partner <a href="http://kalinaivanova.com">Kalina</a>.
-		</p>
-	</div>
-<div class="row">
-
-	<div class="col-12 col-lg-6">
-		<h2 class="f4 b lh-title mb2 ">Currently working on</h2>
-
-		<ul class="ul">
-			<li><a href="http://www.spacefarm.digital" class="spacefarm" target="blank"> spacefarm!</a></li>
-			<li>a digital health and fitness platform</li>
-			<li>an online publication covering yoga</li>
-			<li>the next version of an industrial-scale language testing tool</li>
-			<li>NDA</li>
-		</ul>
-	</div>
-
-		<div class="col-12 col-lg-6">
-			<h2 class="f4 b lh-title mb2">Latest writing</h2>
-
-			<ul class="ul">
-				{% for post in site.posts %}
-					<li><a href="{{post.url}}">{{post.title}}</a></li>
-				{% endfor %}
-			</ul>
-		</div>
-
-
-	<div class="col-12 col-lg-6">
-		<h2 class="f4 b">Extremely passionate about</h2>
-		<ul class="ul">
-			<li>large scale design systems</li>
-			<li>content-driven design</li>
-			<li>responsive typography for screens</li>
-			<li>designing with code</li>
-			<li>microinteraction prototyping</li>
-			<li>atomic CSS</li>
-		</ul>
-	</div>
-
-	<div class="col-12 col-lg-6">
-		<h2 class="f4 b">Also having fun</h2>
-
-		<ul class="ul">
-			<li>exploring product improvement ideas on <a href="http://www.improved.design" target="blank">improved.design</a></li>
-			<li>designing a better battery charger LED notification standard</li>
-			<li>building the <strong>ultimate</strong> responsive typographic scale</li>
-		</ul>
-	</div>
-
-	<div class="col-12 col-lg-6">
-		<h2 class="f4 b">Currently trying to</h2>
-
-		<ul class="ul">
-			<li>learn the basics of Swift</li>
-			<li>get into React</li>
-			<li>improve my Terminal skills</li>
-			<li>get back to doing some illustration</li>
-			<li>learn VIM (?)</li>
-		</ul>
-		</div>
-	</div>
-
-</div>
+{% include home-content.html %}
 
 {% include footer.html %}

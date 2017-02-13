@@ -1,4 +1,5 @@
 - name: Currently working on
+  color: yellow
   items:
     - <a href="http://www.spacefarm.digital" rel="noopener noreferrer" class="spacefarm">spacefarm!</a>
     - an open source declarative design tool
@@ -8,6 +9,7 @@
     - product improvement ideas on <a href="http://www.improved.design" rel="noopener noreferrer">improved.design</a>
 
 - name: Passionate about
+  color: green
   items:
     - large scale design systems
     - content-driven design
@@ -17,6 +19,7 @@
     - atomic design concepts
 
 - name: Trying to
+  color: blue
   items:
     - transfer my React skills into production
     - get better at ES6

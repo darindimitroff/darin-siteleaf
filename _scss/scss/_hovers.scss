@@ -1,0 +1,24 @@
+.states {
+    -webkit-tap-highlight-color: $highlight;
+    transition: opacity 100ms ease;
+    &:hover {
+      opacity: .75;
+    }
+    &:active {
+    opacity: .35;
+    }
+}
+
+.card {
+    &:hover>.arrow:after {
+        transform: translateX(.15rem);
+    }
+}
+
+.arrow {
+    &:after {
+        transition: transform 100ms ease;
+        content: '→';
+        display: inline-block;
+    }
+}

@@ -80,3 +80,6 @@ Verge](http://www.improved.design/2016/03/25/theverge.com)’s primary nav.
 * 100% based on web standards (no JS required)
 * works in all modern browsers
 * allows for easy mode switching using media queries
+
+<p data-height="265" data-theme-id="0" data-slug-hash="NNrorr" data-default-tab="css,result" data-user="deezel" data-embed-version="2" data-pen-title="Flexbox Hamburger Menu Alternative" class="codepen">See the Pen <a href="http://codepen.io/deezel/pen/NNrorr/">Flexbox Hamburger Menu Alternative</a> by Darin Dimitroff (<a href="http://codepen.io/deezel">@deezel</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

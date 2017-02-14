@@ -1,6 +1,10 @@
 ---
 title: Why Control Center in iOS 10 makes sense
-date: 2017-02-14 21:31:00 +02:00
+date: 2016-08-27 21:31:00 +03:00
+tags:
+- ios
+- ui
+- design systems
 ---
 
 ![](https://cdn-images-1.medium.com/max/1600/1*d8ucN-NcZOOBDnXj0KuF_g.jpeg)

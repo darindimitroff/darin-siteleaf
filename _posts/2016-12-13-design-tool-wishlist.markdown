@@ -7,7 +7,7 @@ tags:
 - tools
 ---
 
-This is a living document where I maintain a wishlist of things I’d like to have in a future product design tool.
+This is a living document where I maintain a wishlist of things I’d like to have in a future product design tool. Since I originally wrote this, I've started working on a hacky design tool that covers some of the mentioned shortcomings.
 
 <!--More-->
 

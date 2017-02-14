@@ -10,6 +10,8 @@ tags:
 I’ve been using the developer previews of iOS 10 for a few months now and I’m
 really pleased with it.
 
+<!--More-->
+
 ![](https://cdn-images-1.medium.com/max/1600/1*d8ucN-NcZOOBDnXj0KuF_g.jpeg)
 
 The updated design language feels more natural, tappable

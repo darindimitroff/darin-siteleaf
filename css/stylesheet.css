@@ -2183,10 +2183,10 @@ img {
 .mb0 {
   margin-bottom: 0; }
 
-.mb1, .longform h2, .longform h3, .longform h4, .longform h5, .longform h6 {
+.mb1, .longform h2, .longform h3, .longform h4, .longform h5, .longform h6, .cms h2, .cms h3, .cms h4, .cms h5, .cms h6 {
   margin-bottom: 0.25rem; }
 
-.mb2, .cms h2, .cms h3, .cms h4, .cms h5, .cms h6 {
+.mb2 {
   margin-bottom: 0.5rem; }
 
 .mb3, p, blockquote, .highlight, .cms blockquote {

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>A reasonable hamburger menu replacement with Flexbox</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/stylesheet.css">
+
+    </head>
+    <body>
+
+          <!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <head>
+        <meta charset="utf-8">
+        <title> A reasonable hamburger menu replacement with Flexbox | Darin Dimitroff</title>
+        <meta name="description" content="Inter-disciplinary digital designer living in Sofia.">
+        <meta name="author" content="Darin Dimitroff">
+        <meta property="og:site_name" content="Darin Dimitroff"/>
+
+        <base href="" target="_blank">
+
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="Inter-disciplinary digital designer living in Sofia." />
+        <meta property="og:image" content="/images/me.jpg" />
+        <meta property="og:type" content="website" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="">
+
+        <link href="http:///index.xml" rel="alternate" type="application/rss+xml" title="Darin Dimitroff" />
+
+        <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" type="text/css">
+
+        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
+
+        <link rel="apple-touch-icon" href="/images/thumb.png">
+    </head>
+
+    <body lang="en">
+        <div class="site ph3">
+            <div class="site-content">
+                <div class="mw7 center">
+
+<div>
+    <a href="" class="pv3 db f5">Darin Dimitroff</a>
+</div>
+
+
+<div class="cms pt3 mw6 center">
+    <h1 class="f1 b lh-title mb2">A reasonable hamburger menu replacement with Flexbox</h1>
+    <div class="flex justify-between">
+      <p class="mb4">25 Mar 2016</p>
+      <span class="reading-time" title="Estimated read time">
+  
+  
+    3 mins
+  
+</span>
+
+    </div>
+    <p>Hamburger menus are the prevalent way to access the majority of a site’s
+navigation these days. Last year, I believe it’s become clear that the hamburger
+is a subpar approach that screams desktop first.</p>
+
+<!--More-->
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*OgAThF0hrKCtiGs4r_UUvg@2x.jpeg" alt="" /></p>
+
+<p><em>Originally published at
+*<a href="http://www.improved.design/2016/03/25/resonable-hamburger-replacemet.html">www.improved.design</a></em>
+on March 25, 2016.*</p>
+
+<p>The reasoning is pretty simple:
+we create large, unnecessarily complex navigations for desktops and try to fit
+them on screens with far less real estate. Thus, the junk drawer is born, hiding
+even the primary navigation from the user.</p>
+
+<p>Looking back, I’ve used hamburger menus more than a few times and I feel bad
+about it. Even the current version of <a href="http://www.improved.design/2016/03/25/thecrazyones.agency">our
+website</a> features one
+(it’s old and bad, new site is in the works). I try not to use hamburgers
+anymore as I try to think of more adaptive and contextual navigation patterns.
+The problem with a lot of anti-hamburger articles these days, however, is that
+they don’t suggest alternatives.</p>
+
+<p>Tab bars are great for apps, but look awkward in most websites. Regardless, they
+force designers to prioritize, not allowing for more than five items in the
+primary nav.</p>
+
+<h3 id="some-help-from-flexbox">Some help from Flexbox</h3>
+
+<p>I’ve been using variations of this concept in production for a few months now,
+but I never considered writing about it. <a href="http://codepen.io/chriscoyier/pen/bppOVP/">This codepen by
+chriscoyer</a> and the Twitter reactions
+it generated reminded me that I should do it.</p>
+
+<p>I believe usability patterns are often inspired by the capabilities of certain
+technologies. While working on a complete redesign of a web product for a client
+a few months ago, I spent some time playing around with the different properties
+of Flexbox. This was the second project where we used Flexbox in production and
+I’m still amazed by it’s capabilities.</p>
+
+<p>I had a chance to revisit the information architecture of the product, so we
+designed a lean primary navigation with just four main items and three secondary
+items: logo (home link), profile (sing in/up) and search. Everything else fit
+into one of the four main categories, eliminating clutter.</p>
+
+<p>As you can see, the four main items work similarly to a tab bar, with icons and
+labels. This creates room for a larger tap area on touch devices and takes less
+horizontal space. Moving to the desktop, we want to make use of the available
+width, so we use Flexbox to move the icons to the left. The navbar is now
+vertically thinner (we don’t need to optimize for touch anymore).</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/0*mG2Ub_GMRJZfnSbj.gif" alt="" /></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/0*94tX4GJpWOAMFnpW.gif" alt="" /></p>
+
+<p><strong>Sorry for the blurring. It’s a client project.</strong></p>
+
+<p>With a few lines of code, this could be transformed into a combination of
+separate bottom tab bar and top side scrolling navigation.</p>
+
+<p>Diving into the early days of the web, it’s easy to see how primary navigations
+got more complex with the years. I’m not advocating for 4–5 items for all
+websites and apps, but I’m trying to push this concept into my recent work. The
+mysterious blurred project above is one of those: it features a secondary side
+scrolling nav activated on click.</p>
+
+<p>Suggesting a leaner navigational structure is always the best option, but there
+are a lot of cases when we can’t really do that. It might not be a part of the
+project’s scope or higher management might not be able to see the appeal. That’s
+way I decided to build a prototype featuring a “normal” modern day navigation.
+In case you are wondering, this is <a href="http://www.improved.design/2016/03/25/theverge.com">The
+Verge</a>’s primary nav.</p>
+
+<h3 id="benefits">Benefits</h3>
+
+<ul>
+  <li>it’s a mobile-first approach</li>
+  <li>100% based on web standards (no JS required)</li>
+  <li>works in all modern browsers</li>
+  <li>allows for easy mode switching using media queries</li>
+</ul>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="NNrorr" data-default-tab="css,result" data-user="deezel" data-embed-version="2" data-pen-title="Flexbox Hamburger Menu Alternative" class="codepen">See the Pen <a href="http://codepen.io/deezel/pen/NNrorr/">Flexbox Hamburger Menu Alternative</a> by Darin Dimitroff (<a href="http://codepen.io/deezel">@deezel</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+
+  </div>
+</div>
+</div>
+<footer>
+    <div class="tc flex-md justify-between mw6 mw7-sm pv3 bt b-grey-25 center">
+        <ul class="flex justify-between justify-start-md flex-wrap list-reset b li mb0 mhn2">
+            
+                <li><a href="http://www.twitter.com/deezel" class="twitter no-underline pa2 db transition-fast" target="blank">Twitter</a></li>
+            
+                <li><a href="http://www.dribbble.com/deezel" class="dribbble no-underline pa2 db transition-fast" target="blank">Dribbble</a></li>
+            
+                <li><a href="http://www.medium.com/deezel" class="medium no-underline pa2 db transition-fast" target="blank">Medium</a></li>
+            
+                <li><a href="https://www.instagram.com/ddimitrovd/" class="instagram no-underline pa2 db transition-fast" target="blank">Instagram</a></li>
+            
+        </ul>
+
+        <div>
+            <p class="lh-copy pv2 mb0">
+                <a href="#" class="js-night no-underline" title="Toggle night mode" style="vertical-align: -.16em">😎</a> 2017 Darin Dimitroff
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Vars
+    var nightButton = document.querySelector('.js-night'),
+        html = document.querySelector('html'),
+        nightButton = document.querySelector('.js-night');
+
+    // Define night mode
+    function toggleNightMode() {
+        event.preventDefault();
+        // Add .night class
+        html.classList.toggle('night');
+        // Switch Emoji
+        nightButton.innerHTML = (this.innerHTML === '😎' ? '😳' : '😎');
+    }
+
+    // Toggle night mode on click
+    nightButton.addEventListener("click", toggleNightMode);
+</script>
+</div>
+</div>
+</body>
+</html>
+
+
+
+    </body>
+</html>

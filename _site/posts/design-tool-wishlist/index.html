@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Interface design tool wishlist</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/stylesheet.css">
+
+    </head>
+    <body>
+
+          <!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <head>
+        <meta charset="utf-8">
+        <title> Interface design tool wishlist | Darin Dimitroff</title>
+        <meta name="description" content="Inter-disciplinary digital designer living in Sofia.">
+        <meta name="author" content="Darin Dimitroff">
+        <meta property="og:site_name" content="Darin Dimitroff"/>
+
+        <base href="" target="_blank">
+
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="Inter-disciplinary digital designer living in Sofia." />
+        <meta property="og:image" content="/images/me.jpg" />
+        <meta property="og:type" content="website" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="">
+
+        <link href="http:///index.xml" rel="alternate" type="application/rss+xml" title="Darin Dimitroff" />
+
+        <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" type="text/css">
+
+        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
+
+        <link rel="apple-touch-icon" href="/images/thumb.png">
+    </head>
+
+    <body lang="en">
+        <div class="site ph3">
+            <div class="site-content">
+                <div class="mw7 center">
+
+<div>
+    <a href="" class="pv3 db f5">Darin Dimitroff</a>
+</div>
+
+
+<div class="cms pt3 mw6 center">
+    <h1 class="f1 b lh-title mb2">Interface design tool wishlist</h1>
+    <div class="flex justify-between">
+      <p class="mb4">13 Dec 2016</p>
+      <span class="reading-time" title="Estimated read time">
+  
+  
+    3 mins
+  
+</span>
+
+    </div>
+    <p>This is a living document where I maintain a wishlist of things I’d like to have in a future product design tool. Since I originally wrote this, I’ve started working on a hacky design tool that covers some of the mentioned shortcomings.</p>
+
+<!--More-->
+
+<h2 id="auto-layout">📐 Auto layout</h2>
+<p>It’s amazing that word processing software is better at some portions of layout than design software. For starters: it supports inline content behavior. This allows new bits to appear after older bits in our document without us positioning each one manually. I’m extremely frustrated with the fact that everything in Sketch and Figma is absolutely positioned and I’m not alone: I’m sure everyone who’s designed in the browser would agree.</p>
+
+<p>It doesn’t make sense to have every new block be generated at a random place and even at a random size. How much time are we wasting moving components and smaller primitives from a random place on the canvas to their logical position? iOS, Android and the web use different, yet similar auto layout models. Design software should follow.</p>
+
+<p>My ideal layout model includes something like Flexbox. Being able to apply massive layout changes just by targeting the parent, agnostic of children, is extremely powerful.</p>
+
+<h2 id="responsive-canvas">↔️ Responsive canvas</h2>
+<p>In a broader sense auto-layout already covers that. Designers should be able to stretch artboards to any size they want and content should reflow in a responsive manner. Most projects we work on today are based around multi-screen experiences and fluid UI, so it doesn’t make sense to keep working in three or four breakpoint-specific snapshots of our work.</p>
+
+<h2 id="box-model">📦 Box model</h2>
+<p>Space between objects is one of the most primitive things about design apps. It’s not owned by any component, doesn’t move with anything and makes designing and maintaining a larger design system based around margins and padding a pain. Real world scenario: when working on front-end design systems, components include certain margin-bottom, max-width and padding classes.</p>
+
+<p>“Borderless” UI is extremely popular nowadays. It’s not too great for usability, but the absence of a concept around padding in Sketch results in billions of links and buttons with tiny touch areas. This is the result of front-end developers blindly copying from their designers’ files. You don’t see a border, so why would you need vertical and horizontal padding? Well, turns out you do, even if it remains invisible.</p>
+
+<h2 id="data-features">💾 Data features</h2>
+<p>Data is not a central concept in any design app. Although working with real data has improved massively over the last few years, no app has a data view. It could be primitive at first, working more or less like a JSON file you feed into the UI coupled with a simple GUI and integrated into Sketch or Figma. Just like you have Symbols for styled primitives and larger components, you might have Data for objects, strings, numbers and booleans you feed into your design.</p>
+
+<p>What’s even more interesting is using a design app in a data-first manner. Imagine starting your new Sketch project by building the information architecture directly in the app and then using it to build components, layouts and templates. The same data view could be used to import data from API’s too.</p>
+
+<h2 id="integrated-flows">🗺 Integrated flows</h2>
+<p>Importing hundreds of artboards into a lo-fi prototyping tools like InVision or Marvel is not a great experience. And don’t get me started on hotzones: a simple insertion of a new piece of content might break the whole page’s navigation. I’m actually trying to communicate user flows in static documents or simple multi-page static websites. Here’s a great Sketch plugin that integrates a similar concept. Each user flow node should be attached to a component. This way a copy of a button that calls a modal should call the same modal.</p>
+
+<h2 id="type-scale">⌨️ Type scale</h2>
+<p>This one is much simpler than the rest. Designers should be able to pick a combination of root font size and type scale factor. This automatically generates a complete collection of all font-sizes we will be using throughout the project. Manipulating the type scale parameters reflows the whole document dynamically, just like adjusting the font-size on the root element of the DOM.</p>
+
+<p><em>Originally published on Medium</em></p>
+
+  </div>
+</div>
+</div>
+<footer>
+    <div class="tc flex-md justify-between mw6 mw7-sm pv3 bt b-grey-25 center">
+        <ul class="flex justify-between justify-start-md flex-wrap list-reset b li mb0 mhn2">
+            
+                <li><a href="http://www.twitter.com/deezel" class="twitter no-underline pa2 db transition-fast" target="blank">Twitter</a></li>
+            
+                <li><a href="http://www.dribbble.com/deezel" class="dribbble no-underline pa2 db transition-fast" target="blank">Dribbble</a></li>
+            
+                <li><a href="http://www.medium.com/deezel" class="medium no-underline pa2 db transition-fast" target="blank">Medium</a></li>
+            
+                <li><a href="https://www.instagram.com/ddimitrovd/" class="instagram no-underline pa2 db transition-fast" target="blank">Instagram</a></li>
+            
+        </ul>
+
+        <div>
+            <p class="lh-copy pv2 mb0">
+                <a href="#" class="js-night no-underline" title="Toggle night mode" style="vertical-align: -.16em">😎</a> 2017 Darin Dimitroff
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Vars
+    var nightButton = document.querySelector('.js-night'),
+        html = document.querySelector('html'),
+        nightButton = document.querySelector('.js-night');
+
+    // Define night mode
+    function toggleNightMode() {
+        event.preventDefault();
+        // Add .night class
+        html.classList.toggle('night');
+        // Switch Emoji
+        nightButton.innerHTML = (this.innerHTML === '😎' ? '😳' : '😎');
+    }
+
+    // Toggle night mode on click
+    nightButton.addEventListener("click", toggleNightMode);
+</script>
+</div>
+</div>
+</body>
+</html>
+
+
+
+    </body>
+</html>

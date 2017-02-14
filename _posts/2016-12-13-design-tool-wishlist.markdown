@@ -1,6 +1,10 @@
 ---
 title: Interface design tool wishlist
-date: 2017-02-14 21:24:00 +02:00
+date: 2016-12-13 21:24:00 +02:00
+tags:
+- product
+- design systems
+- tools
 ---
 
 This is a living document where I maintain a wishlist of things I’d like to have in a future product design tool.

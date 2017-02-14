@@ -8,15 +8,11 @@ tags:
 ---
 
 I’ve been using the developer previews of iOS 10 for a few months now and I’m
-really pleased with it.
+really pleased with it. The updated design language feels more natural, tappable and super playful compared to the stark constraint of iOS 7. The overall usability score is definitely higher.
 
 <!--More-->
 
 ![](https://cdn-images-1.medium.com/max/1600/1*d8ucN-NcZOOBDnXj0KuF_g.jpeg)
-
-The updated design language feels more natural, tappable
-and super playful compared to the stark constraint of iOS 7. The overall
-usability score is definitely higher.
 
 Control Center has changed with every major iOS update since its introduction in
 iOS 7. In fact, even previous versions of the platform featured a proto version

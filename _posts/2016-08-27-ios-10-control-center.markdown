@@ -7,10 +7,14 @@ tags:
 - design systems
 ---
 
+I’ve been using the developer previews of iOS 10 for a few months now and I’m
+really pleased with it.
+
+<!--More-->
+
 ![](https://cdn-images-1.medium.com/max/1600/1*d8ucN-NcZOOBDnXj0KuF_g.jpeg)
 
-I’ve been using the developer previews of iOS 10 for a few months now and I’m
-really pleased with it. The updated design language feels more natural, tappable
+The updated design language feels more natural, tappable
 and super playful compared to the stark constraint of iOS 7. The overall
 usability score is definitely higher.
 

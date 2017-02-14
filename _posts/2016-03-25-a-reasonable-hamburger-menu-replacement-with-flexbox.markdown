@@ -10,15 +10,19 @@ tags:
 - responsive
 ---
 
+Hamburger menus are the prevalent way to access the majority of a site’s
+navigation these days. Last year, I believe it’s become clear that the hamburger
+is a subpar approach that screams desktop first.
+
+<!--More-->
+
 ![](https://cdn-images-1.medium.com/max/1600/1*OgAThF0hrKCtiGs4r_UUvg@2x.jpeg)
 
 *Originally published at
 *[www.improved.design](http://www.improved.design/2016/03/25/resonable-hamburger-replacemet.html)*
 on March 25, 2016.*
 
-Hamburger menus are the prevalent way to access the majority of a site’s
-navigation these days. Last year, I believe it’s become clear that the hamburger
-is a subpar approach that screams desktop first. The reasoning is pretty simple:
+The reasoning is pretty simple:
 we create large, unnecessarily complex navigations for desktops and try to fit
 them on screens with far less real estate. Thus, the junk drawer is born, hiding
 even the primary navigation from the user.

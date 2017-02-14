@@ -101,7 +101,7 @@ table {
   background-color: transparent; }
 
 .transition-fast, a {
-  transition: all 100ms ease; }
+  transition: all 150ms ease; }
 
 .transition-slow {
   transition: background-color 500ms cubic-bezier(0.5, 0.1, 0, 1), opacity 100ms ease; }
@@ -1406,9 +1406,14 @@ input[type="url"],
   .states:active, a:active {
     opacity: .35; }
 
-.card:hover > .arrow:after {
-  -webkit-transform: translateX(0.15rem);
-          transform: translateX(0.15rem); }
+.card {
+  transition: all 150ms ease; }
+  .card:hover {
+    opacity: 1;
+    box-shadow: 0 0 10px 0 rgba(30, 35, 56, 0.07), 0 5px 40px 0 rgba(30, 35, 56, 0.03); }
+  .card:hover > .arrow:after {
+    -webkit-transform: translateX(0.15rem);
+            transform: translateX(0.15rem); }
 
 .arrow:after {
   transition: -webkit-transform 100ms ease;

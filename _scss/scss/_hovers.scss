@@ -10,6 +10,11 @@
 }
 
 .card {
+    transition: $hover-transition;
+    &:hover {
+        opacity: 1;
+        box-shadow: 0 0 10px 0 rgba($black, .07), 0 5px 40px 0 rgba($black, .03);
+    }
     &:hover>.arrow:after {
         transform: translateX(.15rem);
     }

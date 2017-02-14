@@ -20,7 +20,7 @@ recent Control Center redesign is more or less change for change’s sake.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*VWRzm0kQ7UwWMUZqq35lXw.png)
 
-#### Toggles
+## Toggles
 
 Probably everyone’s most frequently used Control Center component, the system
 toggles, haven’t changed too much compared to iOS 9. In their active state,
@@ -47,7 +47,7 @@ pattern is similar to how red/orange/green traffic lights work.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*EqEaNggpqAV5_OVXmm6i5g.png)
 
-#### Brightness slider
+## Brightness slider
 
 Not too many changes here. The dimmed background is gone, so all slider
 components in Control Center now feel more tappable even though they are not
@@ -55,7 +55,7 @@ really that bigger.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*TS3aNyiBWN0OEhTc9QafOQ.png)
 
-#### AirPlay Mirroring
+## AirPlay Mirroring
 
 The total separation of AirPlay and AirPlay Mirroring is probably my favorite
 improvement. Previous implementations always felt awkward: pick your Apple TV
@@ -80,13 +80,13 @@ get out of hand quickly.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*MkfnhN05JD6H30ASm8TELw.png)
 
-#### AirDrop
+## AirDrop
 
 So glad this doesn’t take up a full row now.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*SBDponxSsqrMmppwhSrNlQ.png)
 
-#### Night Shift
+## Night Shift
 
 On the other hand, this takes up a full row now, which proves Newton’s third law
 to be right. Probably my biggest gripe with the new UI, but I believe we’ll see
@@ -94,7 +94,7 @@ a two column layout pretty soon when a new feature needs some real estate.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*Vm9NgGw8YfmJh11dbwjwbQ.png)
 
-#### Shortcuts
+## Shortcuts
 
 Part of the app shortcuts can now be removed. If you delete a stock app (for now
 I believe only Calculator is an option) that has a shortcut in Control Center,
@@ -109,7 +109,7 @@ worked naturally in Flexbox.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*9tIIT3MTHrP-cuDMBksLWg.png)
 
-#### Multiple Panes
+## Multiple Panes
 
 All media playback controls now live in a separate pane to the right. In case
 you have any connected home devices that work with Apple’s HomeKit, you’ll get a
@@ -141,7 +141,7 @@ feels tappable and, hooray, tapping on the album art or app icon takes you to
 its corresponding app. Unfortunately, I haven’t had a chance to test the Home
 pane.
 
-#### What’s next?
+## What’s next?
 
 Control Center finally feels like a thoughtful, expandable design system. I’d
 love to see [Alex Muench’s
@@ -151,14 +151,3 @@ Control Center panes in the future, probably for other Apple apps. I don’t thi
 Apple would open up Control Center for App Store apps, but, who knows? Apple is
 currently more open to this sort of stuff than ever, so I wouldn’t deem this
 impossible.
-
-### [Darin Dimitroff](https://blog.thecrazyones.agency/@deezel)
-
-Product designer at [www.spacefarm.digital](http://www.spacefarm.digital/).
-Product improvement ideas: [www.improved.design](http://www.improved.design/).
-Personal site: [www.darindimitroff.com](http://www.darindimitroff.com/)
-
-### [spacefarm](https://blog.thecrazyones.agency/?source=footer_card)
-
-A two-person design team’s thoughts on everything.
-[http://www.spacefarm.digital](http://www.spacefarm.digital/)

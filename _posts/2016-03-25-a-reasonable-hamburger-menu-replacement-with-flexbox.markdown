@@ -1,6 +1,13 @@
 ---
 title: A reasonable hamburger menu replacement with Flexbox
-date: 2017-02-14 21:38:00 +02:00
+date: 2016-03-25 21:38:00 +02:00
+tags:
+- flexbox
+- css
+- web
+- layout
+- interaction
+- responsive
 ---
 
 ![](https://cdn-images-1.medium.com/max/1600/1*OgAThF0hrKCtiGs4r_UUvg@2x.jpeg)

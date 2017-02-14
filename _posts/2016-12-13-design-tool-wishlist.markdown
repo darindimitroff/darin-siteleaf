@@ -9,6 +9,8 @@ tags:
 
 This is a living document where I maintain a wishlist of things I’d like to have in a future product design tool.
 
+<!--More-->
+
 ## 📐 Auto layout
 It’s amazing that word processing software is better at some portions of layout than design software. For starters: it supports inline content behavior. This allows new bits to appear after older bits in our document without us positioning each one manually. I’m extremely frustrated with the fact that everything in Sketch and Figma is absolutely positioned and I’m not alone: I’m sure everyone who’s designed in the browser would agree.
 

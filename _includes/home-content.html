@@ -17,7 +17,7 @@
 <ul class="row list mb3">
     {% for post in site.posts %}
         <li class="col-12 col-sm-6 flex">
-            <a href="{{post.url}}" class="card w-100 db bg-fff pa3 mb3 fw5 br1">
+            <a href="{{post.url}}" target="_self" class="card w-100 db bg-fff pa3 mb3 fw5 br1">
                 <h3 class="f5 b lh-copy mb2">{{post.title}}</h3>
                 <p class="mb2 di">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
                 <p class="b mb0 arrow">Read more</p>

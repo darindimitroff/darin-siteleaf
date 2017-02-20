@@ -1,5 +1,5 @@
 ---
-title: "# Thoughts on accessibility"
+title: Thoughts on accessibility
 date: 2017-02-20 22:04:00 +02:00
 tags:
 - accessibility

@@ -1,0 +1,27 @@
+<!-- About -->
+<ul class="row list mb2">
+    {% for category in site.data.home %}
+        <li class="col-12 col-sm-6">
+            <h3 class="f4 b mb2 dib ph2 lh-copy bg-highlight-{{category.color}}">{{category.name}}</h3>
+            <ul class="ul mb3">
+                {% for item in category.items %}
+                    <li class="mb0">{{item}}</li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>
+
+<!-- Blog -->
+<h2 class="f4 b lh-copy ph2 mb3 bg-highlight-darkblue dib">Writing</h2>
+<ul class="row list mb3">
+    {% for post in site.posts %}
+        <li class="col-12 col-sm-6 flex">
+            <a href="{{post.url}}" class="card w-100 db bg-fff pa3 mb3 fw5 br1">
+                <h3 class="f5 b lh-copy mb2">{{post.title}}</h3>
+                <p class="mb2 di">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+                <p class="b mb0 arrow">Read more</p>
+            </a>
+        </li>
+    {% endfor %}
+</ul>

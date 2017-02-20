@@ -1,0 +1,45 @@
+//VARIABLES
+$black: #1E2338;
+.black { color: $black; }
+.bg-black { background-color: $black; }
+
+$white: #F5F5F7;
+.white { color: $white; }
+.bg-white { background-color: $white; }
+.bg-white-95 { background-color: rgba($white, .95); }
+
+.bg-fff { background-color: #fff !important }
+
+$grey: #9A9DAB;
+.grey { color: $grey; }
+.bg-grey { background-color: $grey; }
+
+$smoke: #6F7485;
+.smoke { color: $smoke; }
+.bg-smoke { background-color: $smoke; }
+
+$burn: #232940;
+
+// highlights
+$highlight: rgba(254, 255, 204, 1);
+$highlight-green: #D2FFCF;
+$highlight-blue: #C9FFEF;
+$highlight-darkblue: #C7E1FF;
+$highlight-purple: #D9D4FF;
+$highlight-pink: #F6D4FF;
+$highlight-red: #FFD4D9;
+.highlight, .bg-highlight-yellow { background-color: $highlight; color: $black!important; }
+.bg-highlight-green { background-color: $highlight-green;
+                     color: $black!important; };
+.bg-highlight-blue { background-color: $highlight-blue;
+                     color: $black!important; };
+.bg-highlight-darkblue { background-color: $highlight-darkblue;
+                     color: $black!important; };
+.bg-highlight-purple { background-color: $highlight-purple;
+                     color: $black!important; };
+.bg-highlight-pink { background-color: $highlight-pink;
+                     color: $black!important; };
+.bg-highlight-red { background-color: $highlight-red;
+                     color: $black!important; };
+
+.bgn { background-color: transparent }

@@ -26,7 +26,7 @@ I don't thing the main enemy of accessibility are JavaScript frameworks. All the
 
 Living in THE EU, sometimes (read always) I wish there was some sort of software accessibility regulator. We have that for public spaces and buildings, you can't just build something if it's not physically accessible, so accessibility is guaranteed to everyone. Of course, we can't have that on the web or practically anywhere in the cyber world, but we can try to be more aware. In recent projects, I've pushed clients into caring more about accessibility, sometimes quite honestly, while other times in more deceptive ways like:
 - proper alt tags are great for SEO (they are, afaik)
-- {{any technology}} is great for SEO
+- "literally any technology you want" is great for SEO
 - proper use of H tags in your CMS makes your articles work better in Instapaper and Pocket (also true)
 
 I keep having anxiety about past projects and some aspects of current projects too. Sometimes I want to take a month off and just go through all my past work and fix all the accessibility problems. I feel guilty for having spent hours in fine jewelry like SVG animations, easing and transitions while accessibility was suffering.

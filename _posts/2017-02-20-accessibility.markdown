@@ -20,7 +20,7 @@ I've shipped deliverables that didn't have stellar accessibility. Earlier in my 
 
 Nowadays this is quite different as we've built a great internal library of accessible and easily customizable code snippets. I'm currently adapting it for React too. Even though things have been better, they still aren't perfect, especially in projects with unrealistically tight deadlines. It sounds bad, but most of us have been at a place where we have to pick between superb accessibility or not having a bunch of features at all. It's not that accessible front-end is harder or slower, it's that it requires better planning and understanding of what you are building at the grand level.
 
-I don't thing the main enemy of accessibility are JavaScript frameworks. All they do is output HTML, so almost anything a static site can do in terms of accessibility can be done. The main enemy of accessibility is organizations that don't give a damn.
+I don't think the main enemy of accessibility are JavaScript frameworks. All they do is output HTML, so almost anything a static site can do in terms of accessibility can be done. The main enemy of accessibility is organizations that don't give a damn.
 
 ## Dreaming of regulation
 

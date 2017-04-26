@@ -10,7 +10,7 @@ tags:
 - front-end
 ---
 
-**Quick test.** I listened to the latest episode of Twenty Thousand Hertz earlier today. Like most things related to accessibility, it affected me in a way that might not be uncommon among product people.
+I listened to the latest episode of Twenty Thousand Hertz earlier today. Like most things related to accessibility, it affected me in a way that might not be uncommon among product people.
 
 <!--More-->
 

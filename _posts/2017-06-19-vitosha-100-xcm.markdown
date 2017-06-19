@@ -6,9 +6,10 @@ tags:
 - sports
 ---
 
-![medal.jpg](/uploads/medal.jpg)
 I attended my first 100km XCM race two weeks ago, so I decided to write a short blog post about it. This is the toughest sports-related thing I’ve done so far in my life and it was great fun.
+<!--More-->
 
+![medal.jpg](/uploads/medal.jpg)
 ## Third race this year
 I got into mountain biking about two years ago after being a casual cyclist for a while. Regardless, I really got into the sport a few months in. I was weight training routinely during the time I learned to mountain bike too, so my general fitness level improved significantly over an year.
 

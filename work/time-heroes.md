@@ -19,4 +19,7 @@ The campaign’s name was “The impossible test”. The organizers split a room
 
 Given the simple functionality of the website, I experimented with Webflow and was pleasantly surprised. I wouldn’t use this type of tool for more than prototyping nowadays, but in 2015, I still wasn’t too comfortable with designing in code completely. I also did some illustration work, something I rarely have time for nowadays but would love to get back to.
 
+![](/images/work/time-heroes/teachers.png)
+![](/images/work/time-heroes/students.png)
+
 Check out the live website <a href="https://timeheroes.org/theimpossibletest/" target="_blank">here↗</a>

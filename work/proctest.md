@@ -10,14 +10,21 @@ color: "#087bff"
 
 I started working with Proctest as an individual contributor a few years before I had the chance to start building a design system.
 
+![](/images/work/proctest/logo.gif)
+
 ![](/images/work/proctest/proctest2.jpg)
+
+![](/images/work/proctest/proctest-sidebar.gif)
 
 While still being more strongly involved with branding and graphic design in general, I helped the team build a brand guideline, including a logo, typography system, color palette and so on. I also designed Proctest’s original website which is no longer online.
 
 ![](/images/work/proctest/proctest3.jpg)
 
+![](/images/work/proctest/toggle.gif)
+
 Proctest is a industry-grade testing tool used by NATO and the US army, so the overall environment was pretty different compared to my experience dominated by early-stage and mid-stage startups. The feedback loop was longer and we had to often take the safest, most beaten paths in terms of product decisions and technology used.
 
+![](/images/work/proctest/wireframe.png)
 ![](/images/work/proctest/proctest4.jpg){: .big-image}
 ![](/images/work/proctest/proctest5.jpg){: .big-image}
 

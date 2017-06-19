@@ -11,14 +11,14 @@ color: "#00c7b7"
 Netlify is probably my favorite new tool regarding code-related stuff, so I was extremely humbled to have a chance to work with their team. I’m even wearing a Netlify t-shirt as I’m writing this.
 
 ![](/images/work/netlify/netlify3.jpg)
-![](/images/work/netlify/netlify2.jpg){: .small-image }
+![](/images/work/netlify/netlify2.jpg){: .vertical }
 
 
 I’ve been in ❤️ with static sites and the whole ecosystem around them from the early Jekyll days. I feel like they are making a comeback with the ascent of new, JS-focused generators like Gatsby and Phenomic.
 
 Combining those with API-driven CMSs like Contentful or Dato is such a pleasant experience for designers, developers and content people and Netlify is pushing the Jamstack concept really hard, so what’s not to love?
 
-![](/images/work/netlify/netlify6.jpg){: .small-image }
+![](/images/work/netlify/netlify6.jpg){: .vertical }
 
 ![](/images/work/netlify/netlify7.jpg){: .big-image }
 

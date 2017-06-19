@@ -10,19 +10,19 @@ color: "#528bff"
 
 In the summer of 2016, my partner and I did some prototyping work for an app for rating things called Telepat (not to be confused with <a href="https://telepat.io/" target="_blank">Telepat</a>). We also helped the team with their brand identity and website.
 
-<video width="100%" height="auto" controls="controls">
+<video width="100%" height="auto" controls="controls" class="vertical">
     <source src="/images/work/telepat/telepat1.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
-<video width="100%" height="auto" controls="controls">
+<video width="100%" height="auto" controls="controls" class="vertical">
     <source src="/images/work/telepat/telepat2.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
 As usual with this type of blue-skies projects, we started with a design sprint based on Google Ventures’ model to narrow our focus and collect the whole team’s thoughts and ideas in one place. After two more weeks, we decided to use a conversational interface mixed with some traditional patterns, so we moved into character design, aiming for an abstract, spirit-like feeling similar to the ways Siri and Cortana are represented.
 
-![](/images/work/telepat/telepat5.jpg)
+![](/images/work/telepat/telepat5.jpg){: .vertical }
 
 ![](/images/work/telepat/telepat3.jpg)
 

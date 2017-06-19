@@ -1,6 +1,6 @@
 ---
-layout: work
 title: Sitepoint
+layout: work
 color: "#00c7b7"
 ---
 

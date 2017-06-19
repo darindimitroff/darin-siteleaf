@@ -1,6 +1,6 @@
 ---
-layout: work
 title: Proctest
+layout: work
 color: "#087bff"
 ---
 

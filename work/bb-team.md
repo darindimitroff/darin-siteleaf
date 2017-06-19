@@ -1,6 +1,6 @@
 ---
-layout: work
 title: BB-Team
+layout: work
 color: "#8bc541"
 ---
 

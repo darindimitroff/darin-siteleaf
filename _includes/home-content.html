@@ -15,20 +15,20 @@
 </section>
 
 <!-- Portfolio -->
-<!--<section>
-    <h2 class="f4 b lh-copy ph2 mb3 bg-grey dib">Work</h2>
+<section>
+    <h2 class="f4 b lh-copy ph2 mb3 bg-grey dib">Work (beta)</h2>
     <ul class="row list mb3">
     {% for project in site.data.work %}
         <li class="col-12 col-sm-6 flex">
                 <a href="{{project.url}}" target="_self" class="card w-100 db pa3 mb3 fw5 br1" style="background-color: {{project.bgColor}}; color: {{project.color}}">
-                    <h3 class="f3 b lh-copy mb2">{{project.title}}</h3>
-                    <p class="mb2 di">{{ project.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+                    <h3 class="f3 b lh-title mb1">{{project.title}}</h3>
+                    <p class="mb2 db">{{ project.excerpt | remove: '<p>' | remove: '</p>' }}</p>
                     <p class="b mb0 arrow">Read more</p>
                 </a>
             </li>
     {% endfor %}
     </ul>
-</section>-->
+</section>
 
 <!-- Blog -->
 <section>
@@ -37,7 +37,7 @@
         {% for post in site.posts %}
         <li class="col-12 col-sm-6 flex">
             <a href="{{post.url}}" target="_self" class="card w-100 db bg-fff pa3 mb3 fw5 br1">
-                <h3 class="f4 b lh-copy mb2">{{post.title}}</h3>
+                <h3 class="f4 b lh-title mb2">{{post.title}}</h3>
                 <p class="mb2 di">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
                 <p class="b mb0 arrow">Read more</p>
             </a>

@@ -22,7 +22,7 @@
   .grey {
     color: $smoke;
   }
-  .card {
+  .card:not([style]) {
       background-color: $burn!important;
   }
   .longform

@@ -1,14 +1,14 @@
 html
 {
-    font-size: 20px;
+    font-size: 22px;
 
     @include md
     {
-        font-size: 22px;
+        font-size: 24px;
     }
     @include xl
     {
-        font-size: 24px;
+        font-size: 26px;
     }
 }
 
@@ -30,7 +30,7 @@ p  {
     @extend .mb3;
 }
 
-.b {
+strong, .b {
   font-weight: bold;
 }
 

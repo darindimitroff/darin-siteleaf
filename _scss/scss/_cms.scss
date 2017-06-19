@@ -21,6 +21,8 @@
 
   img {
     border-radius: .2rem;
+    display: block;
+    margin-bottom: 1rem;
   }
 
   /* Lists */
@@ -36,6 +38,11 @@
 
   ul, ol {
     margin-bottom: $spacing-medium;
+  }
+
+  video {
+    display: block;
+    margin-bottom: 1rem;
   }
 
   ul ul, ol ol {

@@ -1,5 +1,47 @@
 - title: BB-Team
-  bgColor: "#D3FFAA"
-  color: "#559305"
-  url: bbteam
-  excerpt: A technical product designer living in Sofia. Currently working at spacefarm, a product design shop I co-founded with my partner Kalina.
+  bgColor: "#E5FFCC"
+  color: "#3B6603"
+  url: /work/bb-team
+  excerpt: BB-Team is the leading health and fitness portal in Bulgaria. I lead the process of building v1 of their design system while working on a visual redesign.
+
+- title: Proctest
+  bgColor: "rgb(235, 244, 255)"
+  color: "rgb(5, 80, 166)"
+  url: /work/proctest
+  excerpt: Proctest is a industry-grade testing tool used by NATO and the US army. I've worked with their team on a number of projects over the course of more than an year.
+
+- title: Netlify
+  bgColor: "#E6FDFB"
+  color: "#03665E"
+  url: /work/netlify
+  excerpt: I helped the fine folks at Netlify with the beta launch of their React-based static site CMS by designing and building the first small-buisiness website template for the CMS. It's built in Hugo and completely open-source.
+
+- title: Sitepoint
+  bgColor: "#E9FBFD"
+  color: "#035E66"
+  url: /work/sitepoint
+  excerpt: I’ve done work as a technical editor helping Daniel Shwarz write two books for Sitepoint (distributed by O’Reilly in the US). I’m also a contributing author covering product design and design systems at Sitepoint.
+
+- title: Improved
+  bgColor: "#F3F7FA"
+  color: "#445461"
+  url: /work/improved
+  excerpt: Improved is a little website I use to explore digital product improvement ideas through writing and prototyping.
+
+- title: Telepat
+  bgColor: "#EEF4FF"
+  color: "#194AAB"
+  url: /work/telepat
+  excerpt: In 2016, I did some design sprint and hi-fi chatbot prototyping work for Telepat. I also helped the team with their brand identity and website.
+
+- title: Time Heroes
+  bgColor: "#FFF3EE"
+  color: "#993104"
+  url: /work/time-heroes
+  excerpt: Time Heroes is a platform for volunteering and doing good. In 2014 I helped them with some pro-bono work by designing and developing an awareness campaign website.
+
+- title: The Crazy Ones↗
+  bgColor: "#F0F1FF"
+  color: "#3A43A6"
+  url: http://www.thecrazyones.agency/old/
+  excerpt: The Crazy Ones is the old name of spacefarm. My partner and I co-founded the studio in 2013, focusing on branding and product design. Check out our not-so-great old website here.

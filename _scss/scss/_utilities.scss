@@ -70,3 +70,11 @@ svg {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+@include md {
+  .small-image {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

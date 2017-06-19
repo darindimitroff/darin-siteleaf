@@ -6,6 +6,7 @@ tags:
 - sports
 ---
 
+![medal.jpg](/uploads/medal.jpg)
 I attended my first 100km XCM race two weeks ago, so I decided to write a short blog post about it. This is the toughest sports-related thing I’ve done so far in my life and it was great fun.
 
 ## Third race this year
@@ -25,6 +26,7 @@ As usual, the oh-not-so-guilty feeling of severe carb loading two days before th
 
 I over-trained before my last race by doing too much running and  too many squats, so my quads ended up super-sore, which is especially bad during downhill sections. I didn’t plan to make the same mistake, so all I did in the last five days before the race was a 60km training session, some road riding and daily walks and stretches. I wanted to feel relaxed and refueled instead of trying to trigger “beast mode” prematurely and fight to keep the momentum for race day.
 
+![bottom-bike.jpg](/uploads/bottom-bike.jpg)
 ## Race day
 The feeling of riding from home to the starting line is really weird, I’m used to traveling for a race. It kind of made the whole thing feel easier. I met with my buddy Boris about an hour before the race started. Got up at 4.20AM, had coffee and breakfast and headed for the trails. Preparing absolutely everything the night before so you can just grab and go is essential for me as my brain still doesn’t function properly at 4AM.
 
@@ -34,6 +36,7 @@ The bike felt great and, based on my previous rides, I started off pretty good. 
 
 Shortly after that came one of my favorite sections, a flowy single track where, unfortunately, overtaking is almost impossible because you are at the edge of the mountain range. I really lost a lot of time there, but I didn’t care that much.
 
+![shoes.jpg](/uploads/shoes.jpg)
 ## Mechanicals
 What ultimately slowed me down significantly compared to my test run was a mechanical, and a bad one. I snapped my chain on a sharp transition from a downhill to an uphill section and I didn’t have a spare master link. I know the may sound dumb, but I’ve never broken a chain before and I’ve never had a spare master link. Luckily, after about twenty minutes, a random biker with the same drivetrain passed by and helped me out. He even fixed my chain while we had a great conversation about the benefits of clipless pedals (I’m so switching). I don’t really believe in karma, but this race proved the importance of helping each other on the trail to me: I helped a female rider fix a flat tyre, lended a tube to another rider (I ride tubeless) and gave my hand pump to an guy during this race. And I managed to cross he finish line because a rider helped me.
 

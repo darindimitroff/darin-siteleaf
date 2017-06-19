@@ -6,11 +6,11 @@ color: "#7e868c"
 
 Improved is side-projects I started while waiting for my broken patella to heal after a biking accident. I’ve always been more interested in the exact ways design decisions make our daily lives easier and not in the ephemeral “design” thing people get dreamy about.
 
-![](/images/work/improved/improved1.png){: .big-image }
+![](/images/work/improved/improved1.jpg){: .big-image }
 
 As noted on the site, Improved started as an anti-thesis to the daily UI challenge or 30 days of UI thing that was going on around that time. However, after working with more junior people, my perspective on the industry has gotten significantly less snarky over the years, so Improved is now just a blog where I explore product improvement ideas.
 
-![](/images/work/improved/improved3.png)
+![](/images/work/improved/improved3.jpg)
 
 **The core idea is simple:**
 

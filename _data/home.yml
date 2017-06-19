@@ -1,5 +1,4 @@
 - name: Currently working on
-  color: yellow
   items:
     - <a href="http://www.spacefarm.digital" rel="noopener noreferrer" class="spacefarm">spacefarm!</a>
     - an open source declarative design tool
@@ -9,7 +8,6 @@
     - NDA
 
 - name: Passionate about
-  color: green
   items:
     - large scale design systems
     - content-driven design
@@ -19,7 +17,6 @@
     - atomic design concepts
 
 - name: Trying to
-  color: blue
   items:
     - learn Redux
     - get better at ES6

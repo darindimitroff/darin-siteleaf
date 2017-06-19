@@ -8,6 +8,13 @@
     background-color: $black;
     color: $white;
   }
+  .bg-grey {
+    background-color: $smoke;
+    color: $white!important;
+  }
+  .b-grey {
+    border-color: $smoke;
+  }
   ::selection {
     background-color: rgba($grey, .3);
     color: inherit;

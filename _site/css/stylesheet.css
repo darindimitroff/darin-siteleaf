@@ -70,10 +70,10 @@ table {
   background-color: #fff !important; }
 
 .grey {
-  color: #9A9DAB; }
+  color: #DCDFEA; }
 
 .bg-grey {
-  background-color: #9A9DAB; }
+  background-color: #DCDFEA; }
 
 .smoke {
   color: #6F7485; }
@@ -1893,30 +1893,30 @@ img {
 
 .ba {
   border-style: solid;
-  border-width: 1px; }
+  border-width: 2px; }
 
 .bt {
   border-top-style: solid;
-  border-top-width: 1px; }
+  border-top-width: 2px; }
 
 .br {
   border-right-style: solid;
-  border-right-width: 1px; }
+  border-right-width: 2px; }
 
 .bb {
   border-bottom-style: solid;
-  border-bottom-width: 1px; }
+  border-bottom-width: 2px; }
 
 .bl {
   border-left-style: solid;
-  border-left-width: 1px; }
+  border-left-width: 2px; }
 
 .bn {
   border-style: none;
   border-width: 0; }
 
-.b-grey-25 {
-  border-color: rgba(154, 157, 171, 0.25); }
+.b-grey {
+  border-color: #DCDFEA; }
 
 .pa0 {
   padding: 0; }
@@ -4629,12 +4629,19 @@ svg {
   background-color: #1E2338;
   color: #F5F5F7; }
 
+.night .bg-grey {
+  background-color: #6F7485;
+  color: #F5F5F7 !important; }
+
+.night .b-grey {
+  border-color: #6F7485; }
+
 .night ::-moz-selection {
-  background-color: rgba(154, 157, 171, 0.3);
+  background-color: rgba(220, 223, 234, 0.3);
   color: inherit; }
 
 .night ::selection {
-  background-color: rgba(154, 157, 171, 0.3);
+  background-color: rgba(220, 223, 234, 0.3);
   color: inherit; }
 
 .night .grey {
@@ -4644,10 +4651,10 @@ svg {
   background-color: #232940 !important; }
 
 .night .longform a {
-  background-color: rgba(154, 157, 171, 0.4); }
+  background-color: rgba(220, 223, 234, 0.4); }
   .night .longform a:hover {
     color: #F5F5F7;
-    background-color: #9A9DAB; }
+    background-color: #DCDFEA; }
     .night .longform a:hover:active {
       opacity: .4; }
 

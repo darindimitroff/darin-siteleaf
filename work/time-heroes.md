@@ -1,6 +1,6 @@
 ---
-layout: work
 title: Time Heroes
+layout: work
 color: "#f26426"
 ---
 

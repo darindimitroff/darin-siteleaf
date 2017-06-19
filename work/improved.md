@@ -1,6 +1,6 @@
 ---
-layout: work
 title: Improved
+layout: work
 color: "#7e868c"
 ---
 

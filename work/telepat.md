@@ -1,6 +1,6 @@
 ---
-layout: work
 title: Telepat
+layout: work
 color: "#528bff"
 ---
 

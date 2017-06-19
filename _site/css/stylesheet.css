@@ -4229,6 +4229,17 @@ svg {
 .lineno {
   color: #6F7485; }
 
+.big-image {
+  min-width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
 .hide {
   position: fixed !important;
   _position: absolute !important;
@@ -4961,6 +4972,7 @@ pre {
 
 /* Literal.Number.Integer.Long */
 .cms {
+  position: relative;
   /* Lists */ }
   .cms h2 {
     font-size: 1.953rem; }

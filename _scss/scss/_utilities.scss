@@ -58,3 +58,15 @@ svg {
   @extend .ph2;
   color: $smoke;
 }
+
+.big-image {
+  min-width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

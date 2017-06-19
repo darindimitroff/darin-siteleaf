@@ -78,3 +78,26 @@ svg {
     margin-right: auto;
   }
 }
+
+@keyframes waving-emoji {
+  0% {
+    transform: rotate(0deg) translateX(0);
+  }
+  100% {
+    transform: rotate(12deg) translateX(-.3rem);
+    }
+}
+
+.hello-emoji {
+  display: inline-block;
+  animation: waving-emoji .15s ease-in-out 5;
+  transform-origin: 50% 100%;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: backwards;
+  animation-delay: 2s;
+  &:hover {
+    animation: waving-emoji .15s ease-in-out infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+}

@@ -1,5 +1,5 @@
 .states {
-    -webkit-tap-highlight-color: $highlight;
+    -webkit-tap-highlight-color: rgba($highlight, .25);
     transition: opacity 100ms ease;
     &:hover {
       opacity: .75;

@@ -1411,7 +1411,7 @@ input[type="url"],
     height: inherit; } }
 
 .states, a {
-  -webkit-tap-highlight-color: #feffcc;
+  -webkit-tap-highlight-color: rgba(254, 255, 204, 0.25);
   transition: opacity 100ms ease; }
   .states:hover, a:hover {
     opacity: .75; }

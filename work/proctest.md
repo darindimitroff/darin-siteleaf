@@ -22,13 +22,13 @@ While still being more strongly involved with branding and graphic design in gen
 
 ![](/images/work/proctest/toggle.gif)
 
-Proctest is a industry-grade testing tool used by NATO and the US army, so the overall environment was pretty different compared to my experience dominated by early-stage and mid-stage startups. The feedback loop was longer and we had to often take the safest, most beaten paths in terms of product decisions and technology used.
+Proctest is an industry-grade testing tool used by NATO and the US army, so the overall environment was pretty different compared to my experience dominated by early-stage and mid-stage startups. The feedback loop was longer and we had to often take the safest, most beaten paths in terms of product decisions and technology used.
 
 ![](/images/work/proctest/wireframe.png)
 ![](/images/work/proctest/proctest4.jpg){: .big-image}
 ![](/images/work/proctest/proctest5.jpg){: .big-image}
 
-Over the course of multiple sprints and shipping cycles (together spanning over an year and a half), I lead a remote design team while establishing a design system. I was also involved with some project management tasks like coordinating tasks between the design and development team and helping project managers with some more technical aspects of the project.
+Over the course of multiple sprints and shipping cycles (together spanning over an year and a half), I led a remote design team while establishing a design system. I was also involved with some project management tasks like coordinating tasks between the design and development team and helping project managers with some more technical aspects of the project.
 
 <video width="100%" height="auto" controls="controls">
     <source src="/images/work/proctest/proctest1.mp4" type="video/mp4">
@@ -38,6 +38,6 @@ Over the course of multiple sprints and shipping cycles (together spanning over 
 My work for Proctest has spanned a long period of time. Here’s a summary of what I’ve done for the team:
 
 - dramatically simplified the product’s IA and overall user flows
-- lead a major redesign of the test-taking side of the product
+- led a major redesign of the test-taking side of the product
 - coordinated the design team through a migration from a custom stack to Learnosity
-- introduced upper-management to the concept of design systems and lead the process of building v1 of Proctest’s design system
+- introduced upper-management to the concept of design systems and led the process of building v1 of Proctest’s design system

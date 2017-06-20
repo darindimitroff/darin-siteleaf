@@ -12,11 +12,11 @@ BB-Team is the leading health and fitness portal in Bulgaria. It’s been around
 
 ![](/images/work/bb-team/bb11.jpg){: .big-image}
 
-Apart from establishing a design system, we worked on an update adding the option to connect with a health, fitness and nutrition expert in real-life and even subscribe for a training plan. I’ve been a an active user of the product for a few years, so I was really excited to have an opportunity to work with the team behind it.
+Apart from establishing a design system, we worked on an update adding the option to connect with a health, fitness and nutrition expert in real life and even subscribe for a training plan. I’ve been an active user of the product for a few years, so I was really excited to have the opportunity to work with the team behind it.
 
 ![](/images/work/bb-team/bb10.jpg)
 
-Over a bunch of sprints and a few longer feedback cycles, we built a production-ready responsive atomic front-end design system featuring hundreds of components, interactions, helper classes and functions, documentation and full-blown examples for some key pages and user flows. I lead the design system/front-end aspect of the project, while my partner Kalina worked on establishing a visual system around branding and illustration.
+Over a bunch of sprints and a few longer feedback cycles, we built a production-ready responsive atomic front-end design system featuring hundreds of components, interactions, helper classes and functions, documentation and full-blown examples for some key pages and user flows. I led the design system/front-end aspect of the project, while my partner Kalina worked on establishing a visual system around branding and illustration.
 
 <video width="100%" height="auto" controls="controls">
     <source src="/images/work/bb-team/bb2.mp4" type="video/mp4">

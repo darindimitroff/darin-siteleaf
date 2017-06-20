@@ -16,13 +16,13 @@ Netlify is probably my favorite new tool regarding code-related stuff, so I was 
 
 I’ve been in ❤️ with static sites and the whole ecosystem around them from the early Jekyll days. I feel like they are making a comeback with the ascent of new, JS-focused generators like Gatsby and Phenomic.
 
-Combining those with API-driven CMSs like Contentful or Dato is such a pleasant experience for designers, developers and content people and Netlify is pushing the Jamstack concept really hard, so what’s not to love?
+Combining those with API-driven CMSs like Contentful or Dato is such a pleasant experience for designers, developers and content people and Netlify is pushing the JAMstack concept really hard, so what’s not to love?
 
 ![](/images/work/netlify/netlify6.jpg){: .vertical }
 
 ![](/images/work/netlify/netlify7.jpg){: .big-image }
 
-I was really excited when I heard the news Netlify is building an open-source React-based CMS for static sites. Fortunately, shortly after hearing the news Rafa, Netlify’s design lead told me about an exciting opportunity to design and build the first template for the CMS. The coolest part was that the whole thing is completely free and open-source, so everyone can start building their small-business website by forking the repo.
+I was really excited when I heard the news that Netlify was building an open-source React-based CMS for static sites. Fortunately, shortly after hearing the news, Rafa, Netlify’s design lead told me about an exciting opportunity to design and build the first template for the CMS. The coolest part was that the whole thing is completely free and open-source, so everyone can start building their small-business website by forking the repo.
 
 ![](/images/work/netlify/netlify4.jpg)
 

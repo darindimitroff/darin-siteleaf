@@ -12,11 +12,13 @@ In the summer of 2016, my partner and I did some prototyping work for an app for
 
 <video width="100%" height="auto" controls="controls" class="vertical">
     <source src="/images/work/telepat/telepat1.mp4" type="video/mp4">
+    <source src="/images/work/telepat/telepat1.webm" type="video/webm">
     Your browser does not support the video tag.
 </video>
 
 <video width="100%" height="auto" controls="controls" class="vertical">
     <source src="/images/work/telepat/telepat2.mp4" type="video/mp4">
+    <source src="/images/work/telepat/telepat2.webm" type="video/webm">
     Your browser does not support the video tag.
 </video>
 

@@ -20,6 +20,7 @@ Over a bunch of sprints and a few longer feedback cycles, we built a production-
 
 <video width="100%" height="auto" controls="controls">
     <source src="/images/work/bb-team/bb2.mp4" type="video/mp4">
+    <source src="/images/work/bb-team/bb2.webm" type="video/webm">
     Your browser does not support the video tag.
 </video>
 
@@ -31,11 +32,13 @@ By using many modules with open variables (simulation of passing styles as props
 
 <video width="100%" height="auto" controls="controls">
     <source src="/images/work/bb-team/bb3.mp4" type="video/mp4">
+    <source src="/images/work/bb-team/bb3.webm" type="video/webm">
     Your browser does not support the video tag.
 </video>
 
 <video width="100%" height="auto" controls="controls">
     <source src="/images/work/bb-team/bb8.mp4" type="video/mp4">
+    <source src="/images/work/bb-team/bb8.webm" type="video/webm">
     Your browser does not support the video tag.
 </video>
 
@@ -43,6 +46,7 @@ We kept working on the product after we launched the first public release of the
 
 <video width="100%" height="auto" controls="controls">
     <source src="/images/work/bb-team/bb6.mp4" type="video/mp4">
+    <source src="/images/work/bb-team/bb6.webm" type="video/webm">
     Your browser does not support the video tag.
 </video>
 

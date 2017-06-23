@@ -30,6 +30,7 @@ I took part in creating an imaginary coffee brewery, building a brand and visual
 
 <video width="100%" height="auto" controls="controls">
     <source src="/images/work/netlify/netlify1.mp4" type="video/mp4">
+    <source src="/images/work/netlify/netlify1.webm" type="video/webm">
     Your browser does not support the video tag.
 </video>
 

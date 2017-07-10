@@ -12,7 +12,7 @@ tags:
 I recently sold my FitBit Charge 2 and upgraded to a Huawei Watch 2. I wanted to go back to a proper smartwatch, the FitBit just wasn't cutting it for me after being used to a full-featured device like the Apple Watch.
 <!--More-->
 
-![Huawei-Watch-2-Sport.png](/uploads/Huawei-Watch-2-Sport.jpg)
+![A stock photo of the Huawei Watch 2 on a white background showing a sport watch face](/uploads/Huawei-Watch-2-Sport.png)
 I've been using Android for a few months now, so I needed to find a nice alternative running Android Wear. While I was at it, I decided I wasn't just going to look for the closest match, but try to be a bit more clear about what my requirements are.
 
 I was pretty happy with the overall Apple Watch experience, but I also didn't like some aspects of it. So, my new watch had to be something that:

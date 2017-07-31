@@ -1,7 +1,6 @@
 ---
 title: My favorite HCI videos
 date: 2017-07-31 22:29:00 +03:00
-published: false
 tags:
 - hci
 - design
@@ -9,6 +8,7 @@ tags:
 ---
 
 Lately I've been extremely fascinated by the early days of interactive computing and the history of HCI in general. I wonder why the work of people like Alan Kay and Doug Engelbart aren't more popular amongst product designers these days.
+<!--More-->
 
 So here's a list of some of my favorite HCI videos:
 

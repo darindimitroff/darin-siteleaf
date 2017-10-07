@@ -3002,6 +3002,13 @@ gatsby-plugin-react-helmet@^1.0.5:
     babel-runtime "^6.26.0"
     react-helmet "^5.1.3"
 
+gatsby-plugin-styled-components@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-1.0.5.tgz#14a5d24b63451e80931db0ed68c6312d8cf1f104"
+  dependencies:
+    babel-runtime "^6.26.0"
+    styled-components "^2.0.0"
+
 gatsby-react-router-scroll@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-1.0.2.tgz#3fd66c242753eb447e7b2d450afa69c296908c0b"
@@ -7098,7 +7105,7 @@ style-loader@^0.13.0:
   dependencies:
     loader-utils "^1.0.2"
 
-styled-components@^2.1.2, styled-components@^2.2.0:
+styled-components@^2.0.0, styled-components@^2.1.2, styled-components@^2.2.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-2.2.1.tgz#f4835f1001c37bcc301ac3865b5d93466de4dd5b"
   dependencies:
@@ -7111,6 +7118,10 @@ styled-components@^2.1.2, styled-components@^2.2.0:
     prop-types "^15.5.4"
     stylis "^3.2.1"
     supports-color "^3.2.3"
+
+styled-reset@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/styled-reset/-/styled-reset-0.1.2.tgz#478beba1f0faa9e8f27aec3e1d961477f195ec6e"
 
 styled-system@^1.0.0-12, styled-system@^1.0.2:
   version "1.0.7"

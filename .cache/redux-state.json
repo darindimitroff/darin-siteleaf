@@ -7,7 +7,7 @@
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1507380090489,
+      "updatedAt": 1507382633600,
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "13b509bed5863114181999d51f76d030",
+        "contentDigest": "081bf0632ab353f66bfbcc701d8ff2fc",
         "owner": "internal-data-bridge"
       }
     },
@@ -403,14 +403,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2017-10-07T12:41:27.740Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "453e4363845d01b44125b2422487b099",
+        "contentDigest": "8561e28ebe568d68a70bbe618537e0f7",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

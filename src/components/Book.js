@@ -66,7 +66,7 @@ const Cover = styled.a.attrs({
 
 const Book = props => (
   <div>
-    <BookWrapper>
+    <BookWrapper title={props.name}>
       <Cover href={props.link}>
         <Image src={props.cover} />
       </Cover>

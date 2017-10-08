@@ -1,40 +1,42 @@
 import React from 'react'
 import PageTitle from '../components/PageTitle'
 
+import { injectGlobal } from 'styled-components'
+
 import { ThemeProvider } from 'styled-components'
 
 import { Flex, Box } from 'rebass'
 
-import Book from '../components/Book'
+import Movie from '../components/Movie'
 import Bg from '../components/Bg'
 
-import placeholder from '../assets/book.jpg'
-import placeholder2 from '../assets/book2.jpg'
-import placeholder3 from '../assets/book3.jpg'
-
-import bookTheme from '../components/themes/book'
+import movieTheme from '../components/themes/movie'
 
 import FluidContainer from '../components/FluidContainer'
 
-import bookData from '../content/books'
+import movieData from '../content/movies'
 
-const Books = props => (
-  <ThemeProvider theme={bookTheme}>
+const Movies = props => (
+  <ThemeProvider theme={movieTheme}>
     <div>
       <Bg />
       <FluidContainer pt={3}>
-        <PageTitle isVisible>Books</PageTitle>
+        <PageTitle>Movies</PageTitle>
         {/* Listing */}
         <Flex container>
           <Flex wrap mx={-2} align="flex-end" is="ul">
-            {bookData.map((book, value) => (
+            {movieData.map((movie, value) => (
               <Box
                 w={[1 / 2, 1 / 3, 1 / 4, 1 / 5, 1 / 6]}
                 px={2}
                 mb={3}
                 is="li"
               >
-                <Book name={book.name} cover={book.cover} link={book.link} />
+                <Movie
+                  name={movie.name}
+                  poster={movie.poster}
+                  link={movie.link}
+                />
               </Box>
             ))}
           </Flex>
@@ -44,4 +46,4 @@ const Books = props => (
   </ThemeProvider>
 )
 
-export default Books
+export default Movies

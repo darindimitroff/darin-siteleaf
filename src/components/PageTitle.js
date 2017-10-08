@@ -5,9 +5,12 @@ import styled from 'styled-components'
 const PageTitle = styled(Heading).attrs({
   f: [3, 4],
 })`
-  color: ${props => props.theme.text};
+  color: ${props => props.theme.titleText};
   display: inline-block;
-  padding: 1rem 0;
+  padding: ${props => (props.theme.titleBg ? '.5rem 1rem' : '.5rem 0')};
+  line-height: 1;
+  margin-bottom: 1rem;
+  background: ${props => (props.theme.titleBg ? props.theme.titleBg : null)}
 `
 
 export default PageTitle

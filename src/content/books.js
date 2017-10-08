@@ -1,6 +1,8 @@
 import book1 from '../assets/book.jpg'
 import book2 from '../assets/book2.jpg'
 import book3 from '../assets/book3.jpg'
+import book4 from '../assets/book4.jpg'
+import book5 from '../assets/book5.png'
 
 const bookData = [
   {
@@ -20,6 +22,19 @@ const bookData = [
     cover: book3,
     link:
       'https://www.amazon.com/Jony-Ive-Genius-Greatest-Products/dp/159184617X',
+  },
+  {
+    name:
+      'The Art of Pixar: 25th Anniv.: The Complete Color Scripts and Select Art from 25 Years of Animation',
+    cover: book4,
+    link:
+      'https://www.amazon.com/Art-Pixar-Complete-Scripts-Animation/dp/0811879631',
+  },
+  {
+    name: '1970 New York City Transit Authority Graphics Standards Manual',
+    cover: book5,
+    link:
+      'https://standardsmanual.com/products/nyctacompactedition?extra=essay',
   },
 ]
 

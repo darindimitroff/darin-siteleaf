@@ -13,9 +13,11 @@ class TemplateWrapper extends React.Component {
     return (
       <Provider
         theme={{
+          breakpoints: [32, 48, 64, 80, 120],
           font: 'Nitti Grotesk',
           fontSizes: [15, 22, 33, 50, 75, 112],
           weights: [400, 600],
+          hoverTransition: 'all 150ms ease',
           transition: 'all 250ms ease-out',
         }}
       >

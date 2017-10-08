@@ -16,6 +16,7 @@ class TemplateWrapper extends React.Component {
           font: 'Nitti Grotesk',
           fontSizes: [15, 22, 33, 50, 75, 112],
           weights: [400, 600],
+          transition: 'all 250ms ease-out',
         }}
       >
         <Helmet
@@ -27,7 +28,7 @@ class TemplateWrapper extends React.Component {
             },
           ]}
         />
-        <Container>{this.props.children()}</Container>
+        {this.props.children()}
       </Provider>
     )
   }

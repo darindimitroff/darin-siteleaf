@@ -6,11 +6,11 @@ const BaseStyles = () => injectGlobal`
   * {
       box-sizing: border-box;
   }
-  ::selection {
-    background: #BCF5DD;
-  }
   body {
     line-height: 1.45;
+  }
+  ::selection {
+    background: #FAFACF;
   }
 `
 export default BaseStyles

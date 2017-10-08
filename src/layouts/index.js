@@ -5,35 +5,39 @@ import Helmet from 'react-helmet'
 
 import BaseStyles from '../components/BaseStyles'
 
-import { Provider, Container } from 'rebass'
+import {
+  Provider,
+  Container
+} from 'rebass'
 
 class TemplateWrapper extends React.Component {
   render() {
     BaseStyles()
-    return (
-      <Provider
-        theme={{
-          breakpoints: [32, 48, 64, 80, 120],
-          font: 'Nitti Grotesk',
-          fontSizes: [15, 22, 33, 50, 75, 112],
-          weights: [400, 600],
-          hoverTransition: 'all 150ms ease',
-          transition: 'all 250ms ease-out',
-        }}
-      >
-        <Helmet
-          title="Darin Dimitroff"
-          meta={[
-            {
-              name: 'description',
-              content: 'A technical product designer living in Sofia.',
-            },
-          ]}
-        />
-        {this.props.children()}
-      </Provider>
-    )
-  }
+    return ( <
+        Provider theme = {
+          {
+            breakpoints: [32, 48, 64, 80, 120],
+            font: '-apple-system, Roboto, sans-serif, Helvetica',
+            fontSizes: [15, 22, 33, 50, 75, 112],
+            weights: [400, 800],
+            hoverTransition: 'all 150ms ease',
+            transition: 'all 250ms ease-out',
+          }
+        } >
+        <
+        Helmet title = "Darin Dimitroff"
+        meta = {
+          [{
+            name: 'description',
+            content: 'A technical product designer living in Sofia.',
+          }, ]
+        }
+        /> {
+        this.props.children()
+      } <
+      /Provider>
+  )
+}
 }
 
 TemplateWrapper.propTypes = {

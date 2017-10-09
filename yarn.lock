@@ -2980,6 +2980,13 @@ gatsby-cli@^1.1.7:
     resolve-cwd "^2.0.0"
     tracer "^0.8.9"
 
+gatsby-image@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-1.0.9.tgz#5f26719f2073cd14a7df3f24164236491f8c109e"
+  dependencies:
+    babel-runtime "^6.26.0"
+    prop-types "^15.6.0"
+
 gatsby-link@^1.6.17:
   version "1.6.20"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.20.tgz#3cf26bda238fc906a2957f701fe4cb6c6854c030"
@@ -5269,6 +5276,10 @@ pleeease-filters@^3.0.0:
   dependencies:
     onecolor "~2.4.0"
     postcss "^5.0.4"
+
+polished@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-1.8.0.tgz#21d5389c23ebb47e872f991b0b07503c618d5feb"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"

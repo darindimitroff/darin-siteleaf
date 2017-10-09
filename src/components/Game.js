@@ -14,7 +14,7 @@ const propTypes = {
   cover: PropTypes.string.isRequired,
   link: PropTypes.string,
 }
-IDBCursorWithValue
+
 const defaultProps = {
   link: '#',
 }

@@ -1,11 +1,9 @@
 - name: Currently working on
   items:
-    - <a href="http://www.spacefarm.digital" rel="noopener noreferrer" class="spacefarm">spacefarm!</a>
-    - an open source declarative design tool
+    - <a href="https://webflow.com/" rel="noopener noreferrer" class="webflow">Webflow</a>
     - a color palette generator for design systems
     - a layout system for styled-components
     - a book and a few design/code articles for Sitepoint
-    - NDA
 
 - name: Passionate about
   items:

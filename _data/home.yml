@@ -1,9 +1,16 @@
 - name: Currently working on
   items:
-    - <a href="https://webflow.com/" rel="noopener noreferrer" class="webflow">Webflow</a>
+    - a stealth cooking startup
     - a color palette generator for design systems
     - a layout system for styled-components
     - a book and a few design/code articles for Sitepoint
+
+- name: Previously
+  items:
+    - 4 years at early Webflow (employee 50)
+    - design systrems at Productboard
+    - Community and mapping at Relive
+    - co-founder at Spacefarm
 
 - name: Passionate about
   items:

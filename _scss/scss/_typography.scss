@@ -1,12 +1,16 @@
+@use "../scss/_media-queries" as mq;
+@use "../scss/_colors" as *;
+@use "../scss/_transitions" as *;
+
 html
 {
     font-size: 22px;
 
-    @include md
+    @include mq.md
     {
         font-size: 24px;
     }
-    @include xl
+    @include mq.xl
     {
         font-size: 26px;
     }
@@ -16,7 +20,7 @@ body
 {
     -webkit-font-smoothing: antialiased;
     font-size: 1rem;
-    font-family: 'Nitti Grotesk';
+    font-family: 'GT Eesti Pro Text';
     line-height: 1.45;
 
     color: $black;
@@ -27,7 +31,7 @@ body
 }
 
 p  {
-    @extend .mb3;
+    @extend .mb3 !optional;
 }
 
 strong, .b {
@@ -35,10 +39,10 @@ strong, .b {
 }
 
 blockquote {
-  @extend .bg-fff;
-  @extend .pa3;
-  @extend .mb3;
-  @extend .br1;
+  @extend .bg-fff !optional;
+  @extend .pa3 !optional;
+  @extend .mb3 !optional;
+  @extend .br1 !optional;
   p {
     margin-bottom: 0;
   }

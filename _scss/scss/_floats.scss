@@ -1,26 +1,28 @@
-  .fl { float: left;  display: inline; }
-  .fr { float: right; display: inline; }
-  .fn { float: none; }
+@use "../scss/_media-queries" as mq;
 
-@include sm {
+.fl { float: left;  display: inline; }
+.fr { float: right; display: inline; }
+.fn { float: none; }
+
+@include mq.sm {
   .fl-sm { float: left; display: inline; }
   .fr-sm { float: right;display: inline; }
   .fn-sm { float: none; }
 }
 
-@include md {
+@include mq.md {
   .fl-md { float: left; display: inline; }
   .fr-md { float: right;  display: inline; }
   .fn-md { float: none; }
 }
 
-@include lg {
+@include mq.lg {
   .fl-lg { float: left; display: inline; }
   .fr-lg { float: right;  display: inline; }
   .fn-lg { float: none; }
 }
 
-@include xl {
+@include mq.xl {
   .fl-xl { float: left; display: inline; }
   .fr-xl { float: right;  display: inline; }
   .fn-xl { float: none; }

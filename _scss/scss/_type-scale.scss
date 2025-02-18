@@ -1,3 +1,5 @@
+@use "../scss/_media-queries" as mq;
+
 /* For Hero Titles */
 .f-headline {
   font-size: 6rem;
@@ -16,7 +18,7 @@
 .f6 { font-size: .8rem; }
 .f7 { font-size: .64rem; }
 
-@include sm {
+@include mq.sm {
   .f-6-sm,
   .f-headline-sm { font-size: 6rem; }
   .f-5-sm,
@@ -30,7 +32,7 @@
   .f7-sm { font-size: .5rem; }
 }
 
-@include md {
+@include mq.md {
   .f-6-md,
   .f-headline-md { font-size: 6rem; }
   .f-5-md,
@@ -44,7 +46,7 @@
   .f7-md { font-size: .5rem; }
 }
 
-@include lg {
+@include mq.lg {
   .f-6-lg,
   .f-headline-lg {
     font-size: 6rem;
@@ -62,7 +64,7 @@
   .f7-lg { font-size: .5rem; }
 }
 
-@include xl {
+@include mq.xl {
   .f-6-xl,
   .f-headline-xl {
     font-size: 6rem;

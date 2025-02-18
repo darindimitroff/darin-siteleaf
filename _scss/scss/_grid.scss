@@ -1,3 +1,6 @@
+@use "../scss/_media-queries" as mq;
+@use "../scss/_spacing" as *;
+
 $gutter-width: 1rem;
 $gutter-compensation: ($gutter-width * 0.5 * -1);
 $half-gutter-width: ($gutter-width * 0.5);
@@ -166,7 +169,7 @@ $half-gutter-width: ($gutter-width * 0.5);
   margin-left: 91.66666667%;
 }
 
-@include sm {
+@include mq.sm {
 
   .col-sm,
   .col-sm-1,
@@ -316,7 +319,7 @@ $half-gutter-width: ($gutter-width * 0.5);
 }
 
 
-@include md {
+@include mq.md {
 
   .col-md,
   .col-md-1,
@@ -465,7 +468,7 @@ $half-gutter-width: ($gutter-width * 0.5);
   }
 }
 
-@include lg {
+@include mq.lg {
 
   .col-lg,
   .col-lg-1,
@@ -614,7 +617,7 @@ $half-gutter-width: ($gutter-width * 0.5);
   }
 }
 
-@include xl {
+@include mq.xl {
 
   .col-xl,
   .col-xl-1,

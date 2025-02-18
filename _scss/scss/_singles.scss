@@ -1,51 +1,53 @@
+@use "sass:color";
+@use "../scss/_colors" as *;
+
 * {
 	box-sizing: border-box;
 }
 
 ::selection {
-	color: darken($black, .3);
+	color: color.scale($black, $lightness: -1.7790697674%);
 	background-color: $highlight;
 }
 
 .longform {
-
 	h2 {
-		@extend .f2;
-		@extend .b;
-		@extend .lh-title;
-		@extend .mb1;
+		@extend .f2 !optional;
+		@extend .b !optional;
+		@extend .lh-title !optional;
+		@extend .mb1 !optional;
 	}
 
 	h3 {
-		@extend .f4;
-		@extend .b;
-		@extend .lh-title;
-		@extend .mb1;
+		@extend .f4 !optional;
+		@extend .b !optional;
+		@extend .lh-title !optional;
+		@extend .mb1 !optional;
 	}
 
 	h4 {
-		@extend .f5;
-		@extend .b;
-		@extend .lh-title;
-		@extend .mb1;
+		@extend .f5 !optional;
+		@extend .b !optional;
+		@extend .lh-title !optional;
+		@extend .mb1 !optional;
 	}
 
 	h5 {
-		@extend .f6;
-		@extend .b;
-		@extend .lh-title;
-		@extend .mb1;
+		@extend .f6 !optional;
+		@extend .b !optional;
+		@extend .lh-title !optional;
+		@extend .mb1 !optional;
 	}
 
 	h6 {
-		@extend .f7;
-		@extend .b;
-		@extend .lh-title;
-		@extend .mb1;
+		@extend .f7 !optional;
+		@extend .b !optional;
+		@extend .lh-title !optional;
+		@extend .mb1 !optional;
 	}
 
 	img {
-		@extend .mw-100;
+		@extend .mw-100 !optional;
 	}
 }
 

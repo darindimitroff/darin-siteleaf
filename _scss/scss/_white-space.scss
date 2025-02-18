@@ -1,26 +1,28 @@
+@use "../scss/_media-queries" as mq;
+
 .ws-normal { white-space: normal; }
 .nowrap { white-space: nowrap; }
 .pre { white-space: pre; }
 
-@include sm {
+@include mq.sm {
   .ws-normal-sm { white-space: normal; }
   .nowrap-sm { white-space: nowrap; }
   .pre-sm { white-space: pre; }
 }
 
-@include md {
+@include mq.md {
   .ws-normal-md { white-space: normal; }
   .nowrap-md { white-space: nowrap; }
   .pre-md { white-space: pre; }
 }
 
-@include lg {
+@include mq.lg {
   .ws-normal-lg { white-space: normal; }
   .nowrap-lg { white-space: nowrap; }
   .pre-lg { white-space: pre; }
 }
 
-@include xl {
+@include mq.xl {
   .ws-normal-xl { white-space: normal; }
   .nowrap-xl { white-space: nowrap; }
   .pre-xl { white-space: pre; }

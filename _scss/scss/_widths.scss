@@ -1,3 +1,5 @@
+@use "../scss/_media-queries" as mq;
+
 .w1 {    width: 1rem; }
 .w2 {    width: 2rem; }
 .w3 {    width: 4rem; }
@@ -31,7 +33,7 @@
 
 .w-auto { width: auto; }
 
-@include sm {
+@include mq.sm {
   .w1-sm {   width: 1rem; }
   .w2-sm {   width: 2rem; }
   .w3-sm {   width: 4rem; }
@@ -54,7 +56,7 @@
   .w-36px-sm { width: 36px; }
 }
 
-@include md {
+@include mq.md {
   .w1-md {   width: 1rem; }
   .w2-md {   width: 2rem; }
   .w3-md {   width: 4rem; }
@@ -77,7 +79,7 @@
   .w-36px-md { width: 36px; }
 }
 
-@include lg {
+@include mq.lg {
   .w1-lg {      width: 1rem; }
   .w2-lg {      width: 2rem; }
   .w3-lg {      width: 4rem; }
@@ -100,7 +102,7 @@
   .w-36px-lg { width: 36px; }
 }
 
-@include xl {
+@include mq.xl {
   .w1-xl {      width: 1rem; }
   .w2-xl {      width: 2rem; }
   .w3-xl {      width: 4rem; }

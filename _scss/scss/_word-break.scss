@@ -1,26 +1,28 @@
+@use "../scss/_media-queries" as mq;
+
 .word-normal { word-break: normal; }
 .word-wrap { word-break: break-all; }
 .word-nowrap { word-break: keep-all; }
 
-@include sm {
+@include mq.sm {
   .word-normal-sm { word-break: normal; }
   .word-wrap-sm { word-break: break-all; }
   .word-nowrap-sm { word-break: keep-all; }
 }
 
-@include md {
+@include mq.md {
   .word-normal-md { word-break: normal; }
   .word-wrap-md { word-break: break-all; }
   .word-nowrap-md { word-break: keep-all; }
 }
 
-@include lg {
+@include mq.lg {
   .word-normal-lg { word-break: normal; }
   .word-wrap-lg { word-break: break-all; }
   .word-nowrap-lg { word-break: keep-all; }
 }
 
-@include xl {
+@include mq.xl {
   .word-normal-xl { word-break: normal; }
   .word-wrap-xl { word-break: break-all; }
   .word-nowrap-xl { word-break: keep-all; }

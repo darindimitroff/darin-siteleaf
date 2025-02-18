@@ -1,28 +1,31 @@
+@use "../scss/_media-queries" as mq;
+@use "../scss/_colors" as *;
+
 table
 {
-  @extend .br1;
-  @extend .overflow-hidden;
+  @extend .br1 !optional;
+  @extend .overflow-hidden !optional;
 }
 
 td, th {
-  @extend .pa3;
+  @extend .pa3 !optional;
 }
 
 th:not(:first-child), td:not(:first-child) {
-  @extend .tr;
+  @extend .tr !optional;
 }
 
 th {
-  @extend .grey-3;
-  @extend .fw6;
-  @extend .nowrap;
-  @include lg {
+  @extend .grey-3 !optional;
+  @extend .fw6 !optional;
+  @extend .nowrap !optional;
+  @include mq.lg {
     white-space: wrap;
   }
 }
 
 tr th {
-  @extend .tl;
+  @extend .tl !optional;
 }
 
 tbody tr:nth-child(even) {

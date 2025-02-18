@@ -1,11 +1,13 @@
+@use "../scss/_media-queries" as mq;
+
 .overflow-visible { overflow: visible; }
 .overflow-hidden { overflow: hidden; }
-.overflow-scroll { overflow-x: scroll; -webkit-overflow-scrolling: touch;  }
+.overflow-scroll { overflow: scroll; }
 .overflow-auto { overflow: auto; }
 
 .overflow-x-visible { overflow-x: visible; }
 .overflow-x-hidden { overflow-x: hidden; }
-.overflow-x-scroll { overflow-x: scroll; -webkit-overflow-scrolling: touch;  }
+.overflow-x-scroll { overflow-x: scroll; }
 .overflow-x-auto { overflow-x: auto; }
 
 .overflow-y-visible { overflow-y: visible; }
@@ -16,14 +18,15 @@
 .ltr { direction: ltr; }
 .rtl { direction: rtl; }
 
-@include sm {
+@include mq.sm {
   .overflow-visible-sm { overflow: visible; }
   .overflow-hidden-sm { overflow: hidden; }
-  .overflow-scroll-sm { overflow-x: scroll; -webkit-overflow-scrolling: touch;  }
+  .overflow-scroll-sm { overflow: scroll; }
   .overflow-auto-sm { overflow: auto; }
+
   .overflow-x-visible-sm { overflow-x: visible; }
   .overflow-x-hidden-sm { overflow-x: hidden; }
-  .overflow-x-scroll-sm { overflow-x: scroll; -webkit-overflow-scrolling: touch;  }
+  .overflow-x-scroll-sm { overflow-x: scroll; }
   .overflow-x-auto-sm { overflow-x: auto; }
 
   .overflow-y-visible-sm { overflow-y: visible; }
@@ -32,15 +35,15 @@
   .overflow-y-auto-sm { overflow-y: auto; }
 }
 
-@include md {
+@include mq.md {
   .overflow-visible-md { overflow: visible; }
   .overflow-hidden-md { overflow: hidden; }
-  .overflow-scroll-md { overflow-x: scroll; -webkit-overflow-scrolling: touch;  }
+  .overflow-scroll-md { overflow: scroll; }
   .overflow-auto-md { overflow: auto; }
 
   .overflow-x-visible-md { overflow-x: visible; }
   .overflow-x-hidden-md { overflow-x: hidden; }
-  .overflow-x-scroll-md { overflow-x: scroll; -webkit-overflow-scrolling: touch;  }
+  .overflow-x-scroll-md { overflow-x: scroll; }
   .overflow-x-auto-md { overflow-x: auto; }
 
   .overflow-y-visible-md { overflow-y: visible; }
@@ -49,15 +52,15 @@
   .overflow-y-auto-md { overflow-y: auto; }
 }
 
-@include lg {
+@include mq.lg {
   .overflow-visible-lg { overflow: visible; }
   .overflow-hidden-lg { overflow: hidden; }
-  .overflow-scroll-lg { overflow-x: scroll; -webkit-overflow-scrolling: touch;  }
+  .overflow-scroll-lg { overflow: scroll; }
   .overflow-auto-lg { overflow: auto; }
 
   .overflow-x-visible-lg { overflow-x: visible; }
   .overflow-x-hidden-lg { overflow-x: hidden; }
-  .overflow-x-scroll-lg { overflow-x: scroll; -webkit-overflow-scrolling: touch;  }
+  .overflow-x-scroll-lg { overflow-x: scroll; }
   .overflow-x-auto-lg { overflow-x: auto; }
 
   .overflow-y-visible-lg { overflow-y: visible; }
@@ -66,15 +69,15 @@
   .overflow-y-auto-lg { overflow-y: auto; }
 }
 
-@include xl {
+@include mq.xl {
   .overflow-visible-xl { overflow: visible; }
   .overflow-hidden-xl { overflow: hidden; }
-  .overflow-scroll-xl { overflow-x: scroll; -webkit-overflow-scrolling: touch;  }
+  .overflow-scroll-xl { overflow: scroll; }
   .overflow-auto-xl { overflow: auto; }
 
   .overflow-x-visible-xl { overflow-x: visible; }
   .overflow-x-hidden-xl { overflow-x: hidden; }
-  .overflow-x-scroll-xl { overflow-x: scroll; -webkit-overflow-scrolling: touch;  }
+  .overflow-x-scroll-xl { overflow-x: scroll; }
   .overflow-x-auto-xl { overflow-x: auto; }
 
   .overflow-y-visible-xl { overflow-y: visible; }

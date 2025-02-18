@@ -1,3 +1,5 @@
+@use "../scss/_media-queries" as mq;
+
 $spacing-none: 0 !default;
 $spacing-extra-small: .25rem !default;
 $spacing-small: .5rem !default;
@@ -243,7 +245,7 @@ $spacing-extra-extra-extra-large: 16rem !default;
   margin-right: $spacing-extra-extra-extra-large;
 }
 
-@include sm {
+@include mq.sm {
   .pa0-sm  {  padding: $spacing-none; }
   .pa1-sm {  padding: $spacing-extra-small; }
   .pa2-sm  {  padding: $spacing-small; }
@@ -469,7 +471,7 @@ $spacing-extra-extra-extra-large: 16rem !default;
 
 }
 
-@include md {
+@include mq.md {
   .pa0-md  {  padding: $spacing-none; }
   .pa1-md {  padding: $spacing-extra-small; }
   .pa2-md  {  padding: $spacing-small; }
@@ -696,7 +698,7 @@ $spacing-extra-extra-extra-large: 16rem !default;
 
 }
 
-@include lg {
+@include mq.lg {
   .pa0-lg  {  padding: $spacing-none; }
   .pa1-lg {  padding: $spacing-extra-small; }
   .pa2-lg  {  padding: $spacing-small; }
@@ -922,7 +924,7 @@ $spacing-extra-extra-extra-large: 16rem !default;
   }
 }
 
-@include xl {
+@include mq.xl {
   .pa0-xl  {  padding: $spacing-none; }
   .pa1-xl {  padding: $spacing-extra-small; }
   .pa2-xl  {  padding: $spacing-small; }

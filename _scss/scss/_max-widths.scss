@@ -1,3 +1,5 @@
+@use "../scss/_media-queries" as mq;
+
 /* Max Width Percentages */
 
 .mw-100  { max-width: 100%; }
@@ -22,7 +24,7 @@
 
 .mw-none { max-width: none; }
 
-@include sm {
+@include mq.sm {
   .mw-100-sm  { max-width: 100%; }
 
   .mw1-sm  {  max-width: 1rem; }
@@ -38,7 +40,7 @@
   .mw-none-sm { max-width: none; }
 }
 
-@include md {
+@include mq.md {
   .mw-100-md  { max-width: 100%; }
 
   .mw1-md  {  max-width: 1rem; }
@@ -54,7 +56,7 @@
   .mw-none-md { max-width: none; }
 }
 
-@include lg {
+@include mq.lg {
   .mw-100-lg  { max-width: 100%; }
 
   .mw1-lg  {  max-width: 1rem; }
@@ -70,7 +72,7 @@
   .mw-none-lg { max-width: none; }
 }
 
-@include xl {
+@include mq.xl {
   .mw-100-xl  { max-width: 100%; }
 
   .mw1-xl  {  max-width: 1rem; }

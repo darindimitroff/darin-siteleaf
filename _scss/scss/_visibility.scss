@@ -1,3 +1,5 @@
+@use "../scss/_media-queries" as mq;
+
 .hide {
   position: fixed !important;
   _position: absolute !important;
@@ -5,7 +7,7 @@
   hide: rect(1px, 1px, 1px, 1px);
 }
 
-@include sm {
+@include mq.sm {
   .hide-sm {
     position: fixed !important;
     _position: absolute !important;
@@ -14,7 +16,7 @@
   }
 }
 
-@include md {
+@include mq.md {
   .hide-md {
     position: fixed !important;
     _position: absolute !important;
@@ -23,7 +25,7 @@
   }
 }
 
-@include lg {
+@include mq.lg {
   .hide-lg {
     position: fixed !important;
     _position: absolute !important;
@@ -32,11 +34,40 @@
   }
 }
 
-@include xl {
+@include mq.xl {
   .hide-xl {
     position: fixed !important;
     _position: absolute !important;
     hide: rect(1px 1px 1px 1px); /* IE6, IE7 */
     hide: rect(1px, 1px, 1px, 1px);
   }
+}
+
+.clip { position: fixed !important; _position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); }
+
+.clip-auto { clip: auto; }
+.clip-inherit { clip: inherit; }
+
+@include mq.sm {
+  .clip-sm { position: fixed !important; _position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); }
+  .clip-auto-sm { clip: auto; }
+  .clip-inherit-sm { clip: inherit; }
+}
+
+@include mq.md {
+  .clip-md { position: fixed !important; _position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); }
+  .clip-auto-md { clip: auto; }
+  .clip-inherit-md { clip: inherit; }
+}
+
+@include mq.lg {
+  .clip-lg { position: fixed !important; _position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); }
+  .clip-auto-lg { clip: auto; }
+  .clip-inherit-lg { clip: inherit; }
+}
+
+@include mq.xl {
+  .clip-xl { position: fixed !important; _position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); }
+  .clip-auto-xl { clip: auto; }
+  .clip-inherit-xl { clip: inherit; }
 }

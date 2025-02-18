@@ -1,28 +1,30 @@
-  .lh-solid { line-height: 1; }
-  .lh-title { line-height: 1.2; }
-  .lh-copy  { line-height: 1.5; }
-  .lh-36px { line-height: 36px; }
+@use "../scss/_media-queries" as mq;
 
-@include sm {
+.lh-solid { line-height: 1; }
+.lh-title { line-height: 1.25; }
+.lh-copy  { line-height: 1.5; }
+.lh-36px { line-height: 36px; }
+
+@include mq.sm {
   .lh-solid-sm { line-height: 1; }
-  .lh-title-sm { line-height: 1.2; }
+  .lh-title-sm { line-height: 1.25; }
   .lh-copy-sm  { line-height: 1.5; }
 }
 
-@include md {
+@include mq.md {
   .lh-solid-md { line-height: 1; }
-  .lh-title-md { line-height: 1.2; }
+  .lh-title-md { line-height: 1.25; }
   .lh-copy-md  { line-height: 1.5; }
 }
 
-@include lg {
+@include mq.lg {
   .lh-solid-lg { line-height: 1; }
-  .lh-title-lg { line-height: 1.2; }
+  .lh-title-lg { line-height: 1.25; }
   .lh-copy-lg  { line-height: 1.5; }
 }
 
-@include xl {
+@include mq.xl {
   .lh-solid-xl { line-height: 1; }
-  .lh-title-xl { line-height: 1.2; }
+  .lh-title-xl { line-height: 1.25; }
   .lh-copy-xl  { line-height: 1.5; }
 }

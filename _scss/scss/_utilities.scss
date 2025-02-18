@@ -1,3 +1,7 @@
+@use "../scss/_media-queries" as mq;
+@use "../scss/_colors" as *;
+@use "../scss/_spacing" as *;
+
 .center {
   margin-right: auto;
   margin-left: auto;
@@ -46,16 +50,16 @@ svg {
 .highlight {
   border-radius: .2rem;
   overflow: hidden;
-  @extend .mb3;
+  @extend .mb3 !optional;
 }
 
 .code {
-  @extend .ph2;
-  @extend .pv3;
+  @extend .ph2 !optional;
+  @extend .pv3 !optional;
 }
 
 .lineno {
-  @extend .ph2;
+  @extend .ph2 !optional;
   color: $smoke;
 }
 
@@ -71,7 +75,7 @@ svg {
   margin-bottom: 2rem;
 }
 
-@include md {
+@include mq.md {
   .vertical {
     width: 50%;
     margin-left: auto;

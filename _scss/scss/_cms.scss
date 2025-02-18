@@ -1,9 +1,12 @@
+@use "../scss/_colors" as *;
+@use "../scss/_spacing" as *;
+
 .cms {
   position: relative;
   h2, h3, h4, h5, h6 {
-    @extend .b;
-    @extend .lh-title;
-    @extend .mb2;
+    @extend .b !optional;
+    @extend .lh-title !optional;
+    @extend .mb2 !optional;
   }
   h2 { font-size: 1.953rem; }
   h3 { font-size: 1.563rem; }
@@ -12,7 +15,7 @@
   h6 { font-size: .8rem; }
 
   & a {
-    @extend .b;
+    @extend .b !optional;
     transition: var(--hover-transition);
     &:hover {
       text-decoration: underline;
@@ -38,7 +41,7 @@
 
   pre {
     font-family: Input Mono, Menlo, Fira Mono, Roboto Mono, monospace;
-    @extend .f6;
+    @extend .f6 !optional;
   }
 
   ul, ol {
@@ -83,11 +86,11 @@
   }
 
   blockquote {
-    @extend .f4;
-    @extend .b;
-    @extend .pa3;
-    @extend .br1;
-    @extend .mb3;
+    @extend .f4 !optional;
+    @extend .b !optional;
+    @extend .pa3 !optional;
+    @extend .br1 !optional;
+    @extend .mb3 !optional;
     p:last-child {
       margin-bottom: 0;
     }

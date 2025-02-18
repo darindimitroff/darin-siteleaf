@@ -1,11 +1,14 @@
+@use "../scss/_colors" as *;
+@use "../scss/_transitions" as *;
+
 .states {
     -webkit-tap-highlight-color: rgba($highlight, .25);
-    transition: opacity 100ms ease;
     &:hover {
       opacity: .75;
+      transition: $animation-transition;
     }
     &:active {
-    opacity: .35;
+    opacity: .5;
     }
 }
 

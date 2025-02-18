@@ -1,21 +1,23 @@
-@font-face
-{
-    font-family: 'Nitti Grotesk';
-    font-weight: normal;
-    font-style: normal;
-
-    src:
-      url('../fonts/NittiGrotesk-Normal.woff2') format('woff2'),
-      url('../fonts/NittiGrotesk-Normal.woff') format('woff')
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+  src: url('GTEestiProText-Medium.eot');
+  src: local('GT Eesti Pro Text Medium'), local('GTEestiProText-Medium'),
+      url('GTEestiProText-Medium.eot?#iefix') format('embedded-opentype'),
+      url('GTEestiProText-Medium.woff2') format('woff2'),
+      url('GTEestiProText-Medium.woff') format('woff'),
+      url('GTEestiProText-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
-@font-face
-{
-    font-family: 'Nitti Grotesk';
-    font-weight: bold;
-    font-style: normal;
-
-    src:
-      url('../fonts/NittiGrotesk-Bold.woff2') format('woff2'),
-      url('../fonts/NittiGrotesk-Bold.woff') format('woff')
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+  src: url('GTEestiProDisplay-Bold.eot');
+  src: local('GT Eesti Pro Display Bold'), local('GTEestiProDisplay-Bold'),
+      url('GTEestiProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+      url('GTEestiProDisplay-Bold.woff2') format('woff2'),
+      url('GTEestiProDisplay-Bold.woff') format('woff'),
+      url('GTEestiProDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }

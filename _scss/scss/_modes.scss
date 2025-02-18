@@ -1,7 +1,10 @@
+@use "sass:color";
+@use "../scss/_colors" as *;
+
 .night
 {
   nav {
-    background-color: darken($black, 3);
+    background-color: color.scale($black, $lightness: -17.7906976744%);
     border-bottom-color: rgba($smoke, .25);
   }
   body {
@@ -46,5 +49,8 @@
         }
       }
   }
+}
 
+.dark-mode {
+    background-color: color.scale($black, $lightness: -17.7906976744%);
 }

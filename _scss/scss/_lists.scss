@@ -1,4 +1,15 @@
-.list { list-style-type: none; }
+@use "../scss/_colors" as *;
+@use "../scss/_spacing" as *;
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+}
 
 /* Lists */
 .ul, .ol, li {
@@ -7,7 +18,7 @@
 
 pre {
   font-family: Input Mono, Menlo, Fira Mono, Roboto Mono, monospace;
-  @extend .f6;
+  @extend .f6 !optional;
 }
 
 .ul .ul, .ol .ol {
@@ -30,11 +41,11 @@ pre {
   }
 }
 
-& .ol {
+.ol {
   list-style: none;
   margin-left: $spacing-medium;
   counter-reset: i 0;
-  & >li:before {
+  >li:before {
     font-weight: 800;
     left: -$spacing-medium;
     position: absolute;

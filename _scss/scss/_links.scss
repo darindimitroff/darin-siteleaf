@@ -1,9 +1,9 @@
 a {
   color: inherit;
-  @extend .b;
-  @extend .states;
-  @extend .no-underline;
-  @extend .transition-fast;
+  @extend .b !optional;
+  @extend .states !optional;
+  @extend .no-underline !optional;
+  @extend .transition-fast !optional;
 }
 
 .spacefarm:hover {

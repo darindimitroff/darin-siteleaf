@@ -1,25 +1,27 @@
-  .dn {              display: none!important; }
-  .di {              display: inline!important; }
-  .db {              display: block!important; }
-  .dib {             display: inline-block!important; }
-  .dit {             display: inline-table!important; }
-  .dt {              display: table!important; }
-  .dtc {             display: table-cell!important; }
-  .dt-row {          display: table-row!important; }
-  .dt-row-group {    display: table-row-group!important; }
-  .dt-column {       display: table-column!important; }
-  .dt-column-group { display: table-column-group!important; }
+@use "../scss/_media-queries" as mq;
 
-  /*
-    This will set table to full width and then
-    all cells will be equal width
-  */
-  .dt--fixed {
-    table-layout: fixed!important;
-    width: 100%!important;
-  }
+.dn {              display: none!important; }
+.di {              display: inline!important; }
+.db {              display: block!important; }
+.dib {             display: inline-block!important; }
+.dit {             display: inline-table!important; }
+.dt {              display: table!important; }
+.dtc {             display: table-cell!important; }
+.dt-row {          display: table-row!important; }
+.dt-row-group {    display: table-row-group!important; }
+.dt-column {       display: table-column!important; }
+.dt-column-group { display: table-column-group!important; }
 
-@include sm {
+/*
+  This will set table to full width and then
+  all cells will be equal width
+*/
+.dt--fixed {
+  table-layout: fixed!important;
+  width: 100%!important;
+}
+
+@include mq.sm {
   .dn-sm {              display: none!important; }
   .di-sm {              display: inline!important; }
   .db-sm {              display: block!important; }
@@ -38,7 +40,7 @@
   }
 }
 
-@include md {
+@include mq.md {
   .dn-md {              display: none!important; }
   .di-md {              display: inline!important; }
   .db-md {              display: block!important; }
@@ -57,7 +59,7 @@
   }
 }
 
-@include lg {
+@include mq.lg {
   .dn-lg {              display: none!important; }
   .di-lg {              display: inline!important; }
   .db-lg {              display: block!important; }
@@ -76,7 +78,7 @@
   }
 }
 
-@include xl {
+@include mq.xl {
   .dn-xl {              display: none!important; }
   .di-xl {              display: inline!important; }
   .db-xl {              display: block!important; }

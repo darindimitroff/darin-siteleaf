@@ -15,6 +15,7 @@
 .card {
     transition: $hover-transition;
     box-shadow: 0 0 4px 0 rgba($black, .07), 0 2px 10px 0 rgba($black, .03);
+    text-decoration: none;
     transform: translateZ(0);
     &:hover {
         opacity: 1;
@@ -28,6 +29,7 @@
     }
     &:hover>.arrow:after {
         transform: translateX(.15rem);
+    }
     }
 }
 

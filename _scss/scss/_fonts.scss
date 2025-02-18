@@ -9,9 +9,9 @@
 
 @font-face {
   font-family: 'GT Eesti Pro Display';
-  src: local('GT Eesti Pro Display Bold'),
-       url('../fonts/GTEestiProDisplay-Bold.woff2') format('woff2');
-  font-weight: bold;
+  src: url('GTEestiProDisplay-UltraBold.eot');
+  src: local('GT Eesti Pro Display UltraBold'), local('GTEestiProDisplay-UltraBold'),
+      url('GTEestiProDisplay-UltraBold.woff2') format('woff2'),
+  font-weight: 800;
   font-style: normal;
-  font-display: swap;
 }

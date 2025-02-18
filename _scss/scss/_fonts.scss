@@ -9,6 +9,24 @@
 
 @font-face {
   font-family: 'GT Eesti Pro Display';
+  src: local('GT Eesti Pro Display Regular'),
+       url('../fonts/GTEestiProDisplay-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+  src: local('GT Eesti Pro Display Bold'),
+       url('../fonts/GTEestiProDisplay-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
   src: local('GT Eesti Pro Display UltraBold'),
        url('../fonts/GTEestiProDisplay-UltraBold.woff2') format('woff2');
   font-weight: 800;

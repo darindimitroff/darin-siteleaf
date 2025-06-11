@@ -1,5 +1,5 @@
 ---
-title: Android Wear 2.0
+title: ⌚️ Android Wear 2.0
 date: 2017-07-10 10:07:00 +03:00
 tags:
 - ux

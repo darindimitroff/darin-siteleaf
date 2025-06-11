@@ -33,11 +33,10 @@ pre {
   list-style: none;
   margin-left: 1rem;
   >li:before {
-    content: '●';
+    content: '•';
     left: -1rem;
     position: absolute;
-    color: $smoke;
-    top: .08em;
+    color: currentColor;
   }
 }
 

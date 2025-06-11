@@ -1,31 +1,26 @@
 - name: Currently working on
   items:
     - a stealth cooking startup
-    - a color palette generator for design systems
-    - a layout system for styled-components
-    - a book and a few design/code articles for Sitepoint
+    - a new way to type (much) faster
+    - NDA client project
 
 - name: Previously
   items:
     - 4 years at early Webflow (employee 50)
     - design systems at Productboard
-    - Community and mapping at Relive
+    - community and mapping at Relive
     - co-founder at Spacefarm
 
 - name: Passionate about
   items:
-    - large scale design systems
-    - content-driven design
-    - responsive typography for screens
+    - design systems & design ops
+    - inventing new UI for LLMs
+    - adaptive typography
     - designing with code
-    - microinteraction prototyping
+    - microinteractions and delight
     - atomic design concepts
 
-- name: Trying to
+- name: Reading
   items:
-    - help young/new designers via <a href="https://www.outofofficehours.com/" rel="noopener noreferrer">Out of Office Hours</a>
-    - learn Redux
-    - get better at ES6
-    - get more into advanced maths
-    - improve my Terminal and Git skills
-    - get back to doing some illustration
+    - <a href="https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X" rel="noopener noreferrer">A Brief History of Information Networks from the Stone Age</a>
+    - <a href="https://www.amazon.com/dp/0307396185" rel="noopener noreferrer">Look Me in the Eye – My Life with Asperger's</a>

@@ -1,5 +1,5 @@
 ---
-title: Why Control Center in iOS 10 makes sense
+title: 💡 Why Control Center in iOS 10 makes sense
 date: 2016-08-27 21:31:00 +03:00
 tags:
 - ios

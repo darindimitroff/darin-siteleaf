@@ -1,5 +1,5 @@
 ---
-title: A reasonable hamburger menu replacement with Flexbox
+title: 🍔 A reasonable hamburger menu replacement with Flexbox
 date: 2016-03-25 21:38:00 +02:00
 tags:
 - flexbox

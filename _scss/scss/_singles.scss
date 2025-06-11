@@ -49,6 +49,10 @@
 	img {
 		@extend .mw-100 !optional;
 	}
+
+	p {
+		margin-bottom: 1rem;
+	}
 }
 
 .drop {

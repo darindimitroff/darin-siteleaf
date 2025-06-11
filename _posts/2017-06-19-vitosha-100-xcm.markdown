@@ -1,5 +1,5 @@
 ---
-title: My first 100km XCM race
+title: 🚲 My first 100km XCM race
 date: 2017-06-19 23:19:00 +03:00
 tags:
 - mtb

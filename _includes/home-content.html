@@ -20,7 +20,7 @@
     <ul class="row list mb3">
     {% for project in site.data.work %}
         <li class="col-12 col-sm-6 flex">
-                <a href="{{project.url}}" target="_self" class="card w-100 db pa3 mb3 fw5 br1" style="background-color: {{project.bgColor}}; color: {{project.color}}">
+                <a href="{{project.url}}" target="_self" class="card w-100 db pv3 mb3 fw5 br1" style="background-color: {{project.bgColor}}; color: {{project.color}}; box-shadow: 0 0 .5rem .25rem {{project.bgColor}}AA, 0 .25rem .25rem 0 {{project.bgColor}}55; border: 1px solid {{project.color}}33">
                     <h3 class="f3 b lh-title mb1">{{project.title}}</h3>
                     <p class="mb2 db">{{ project.excerpt | remove: '<p>' | remove: '</p>' }}</p>
                     <p class="b mb0 arrow">Read more</p>
@@ -36,7 +36,7 @@
     <ul class="row list mb3">
         {% for post in site.posts %}
         <li class="col-12 col-sm-6 flex">
-            <a href="{{post.url}}" target="_self" class="card w-100 db bg-fff pa3 mb3 fw5 br1">
+            <a href="{{post.url}}" target="_self" class="card w-100 flex flex-column justify-between bg-fff mb3 fw5 br1">
                 <h3 class="f4 b lh-title mb2">{{post.title}}</h3>
                 <p class="mb2 di">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
                 <p class="b mb0 arrow">Read more</p>

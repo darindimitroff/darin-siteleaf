@@ -1,9 +1,9 @@
 //VARIABLES
-$black: #1E2338;
+$black: #2C334E;
 .black { color: $black; }
 .bg-black { background-color: $black; }
 
-$white: #F5F5F7;
+$white: #FEFEFE;
 .white { color: $white; }
 .bg-white { background-color: $white; }
 .bg-white-95 { background-color: rgba($white, .95); }
@@ -13,6 +13,7 @@ $white: #F5F5F7;
 $grey: #DCDFEA;
 .grey { color: $grey; }
 .bg-grey { background-color: $grey; }
+.bg-orange { background-color: rgba(255, 81, 0, 0.4);}
 
 $smoke: #6F7485;
 .smoke { color: $smoke; }

@@ -1,16 +1,8 @@
 @font-face {
-  font-family: 'GT Eesti Pro Text';
-  src: local('GT Eesti Pro Text Regular'),
-       url('../fonts/GTEestiProText-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'GT Eesti Pro Display';
-  src: local('GT Eesti Pro Display UltraBold'),
-       url('../fonts/GTEestiProDisplay-UltraBold.woff2') format('woff2');
+  font-family: 'Avenir Next Rounded';
+  src: local('Avenir Next Rounded'),
+       url('../fonts/AvenirNextRounded-Bold.woff2') format('woff2'),
+       url('../fonts/AvenirNextRounded-Bold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
   font-display: swap;

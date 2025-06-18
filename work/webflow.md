@@ -7,7 +7,7 @@ tags:
 - work
 ---
 
-I spent four years working on visual development tools at early Webflow. I worked on features such as Ecommerce, Interactions, Memberships, Annotations, the internal design system and many more.nt here...
+I spent four years working on visual development tools at early Webflow. I worked on features such as Ecommerce, Interactions, Memberships, Annotations, the internal design system and many more.
 
 <!--More--> 
 

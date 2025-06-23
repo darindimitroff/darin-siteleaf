@@ -13,8 +13,6 @@ As a design systems designer at Productboard, I helped build and scale their des
 
 ## Nucleus: Productboard's design system
 
-*Full case study coming soon.*
-
 ![Image.png](https://res.craft.do/user/full/c3dd7b8f-9026-b832-3665-2e46c2f9d9ef/doc/DD9A7DA6-C021-4FCF-8FC4-00BACB68F7C0/159272CA-1E1E-4D16-A4D3-4D6711DD781C_2/QyIlrrBIblEkUFDMJDnxLSLOS7k8pdoihDi7XKpH5yAz/Image.png)
 
 ![Image.png](https://res.craft.do/user/full/c3dd7b8f-9026-b832-3665-2e46c2f9d9ef/doc/DD9A7DA6-C021-4FCF-8FC4-00BACB68F7C0/89583126-E77E-422D-9C6B-9B90C2FF4821_2/qrELNlYPyx7HyuaQtbCHFeLfmyKweG0RCTRtb0EfIuMz/Image.png)

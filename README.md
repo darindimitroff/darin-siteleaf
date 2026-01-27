@@ -1,52 +1,36 @@
-jekyll-gulp-sass-browser-sync
-=============================
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+## Getting Started
 
-Here's a 1.5min [screencast](http://quick.as/pvrslgx) showing what you get.
+First, run the development server:
 
-And here's a GIF showing the CSS injecting.
-
-![GIF](http://f.cl.ly/items/373y2E0e0i2p0E2O131g/test-gif.gif)
-
-## System Preparation
-
-To use this starter project, you'll need the following things installed on your machine.
-
-1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
-2. [NodeJS](http://nodejs.org) - use the installer.
-3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
-
-## Local Installation
-
-1. Clone this repo, or download it into a directory of your choice.
-2. Inside the directory, run `npm install`.
-
-## Usage
-
-**development mode**
-
-This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
-
-```shell
-$ gulp
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-**jekyll**
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-As this is just a Jekyll project, you can use any of the commands listed in their [docs](http://jekyllrb.com/docs/usage/)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Deploy with Gulp
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-You can easily deploy your site build to a gh-pages branch. First, follow the instructions at [gulp-gh-pages](https://github.com/rowoot/gulp-gh-pages) to get your branch prepared for the deployment and to install the module. Then, in `gulpfile.js` you'll want to include something like the code below. `gulp.src()` needs to be the path to your final site folder, which by default will be `_site`. If you change the `destination` in your `_config.yml` file, be sure to reflect that in your gulpfile.
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```javascript
-var deploy = require("gulp-gh-pages");
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-gulp.task("deploy", ["jekyll-build"], function () {
-    return gulp.src("./_site/**/*")
-        .pipe(deploy());
-});
-```
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

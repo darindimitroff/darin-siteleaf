@@ -1,7 +1,6 @@
 "use client";
 
 import { useRef, useState, useCallback, useEffect } from "react";
-import { motion } from "framer-motion";
 import { useWindowStore, WindowState } from "@/stores/windowStore";
 
 interface WindowProps {
@@ -95,7 +94,7 @@ export function Window({ window: win, children }: WindowProps) {
   if (win.isMinimized) return null;
 
   return (
-    <motion.div
+    <div
       ref={windowRef}
       className="window absolute window-opening"
       style={{
@@ -106,9 +105,6 @@ export function Window({ window: win, children }: WindowProps) {
         zIndex: win.zIndex,
       }}
       onClick={handleWindowClick}
-      initial={{ scale: 0.8, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      transition={{ duration: 0.15 }}
     >
       {/* Title Bar */}
       <div
@@ -135,6 +131,6 @@ export function Window({ window: win, children }: WindowProps) {
           onMouseDown={handleResizeStart}
         />
       </div>
-    </motion.div>
+    </div>
   );
 }
